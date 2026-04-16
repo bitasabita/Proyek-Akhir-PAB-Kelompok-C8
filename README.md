@@ -540,7 +540,7 @@ Pada halaman ini, pengguna dapat menginput nama pelanggan, memilih metode pembay
 
 <br><br>
 
-<b>Penjelasan:</b><br>
+<b>Tampilan Transaksi Tunai:</b><br>
 Jika metode pembayaran yang dipilih adalah tunai, maka setelah nama pelanggan dan metode pembayaran diisi, pengguna dapat langsung menambahkan menu ke dalam ringkasan pemesanan.  
 Pada ringkasan tersebut, item dapat ditambah, dikurangi, atau dihapus. Setelah transaksi disimpan, sistem akan menampilkan notifikasi bahwa transaksi telah masuk ke riwayat transaksi dan laporan penjualan.
 
@@ -704,7 +704,7 @@ Fitur ini memudahkan pengguna ketika ingin menemukan produk tertentu tanpa perlu
 
 <br><br>
 
-<b>Penjelasan:</b><br>
+<b>Tampilan Update Stok Produk:</b><br>
 Setiap produk pada halaman stok dapat diperbarui jumlah stoknya.  
 Pengguna hanya perlu memasukkan angka stok terbaru, lalu sistem akan menyimpan perubahan tersebut.
 
@@ -857,7 +857,7 @@ Melalui filter ini, pengguna dapat menampilkan transaksi sesuai metode pembayara
 
 <br><br>
 
-<b>Penjelasan:</b><br>
+<b>Filter untuk melihat riwayat pembayaran:</b><br>
 Riwayat transaksi dapat difilter berdasarkan periode waktu seperti semua, hari ini, minggu ini, dan bulan ini.  
 Selain itu, transaksi juga dapat difilter berdasarkan metode pembayaran seperti tunai, QRIS, transfer.
 
@@ -881,7 +881,7 @@ Selain itu, transaksi juga dapat difilter berdasarkan metode pembayaran seperti 
     </td>
     <td width="65%" valign="top">
 
-### Penjelasan
+### Tampilan Detail Riwayat Transaksi
 Setiap data transaksi ditampilkan dengan format yang menyerupai struk digital.  
 Informasi yang dapat dilihat antara lain nama kasir, waktu transaksi, total pembayaran, metode pembayaran, dan bukti pembayaran berupa foto.
 
@@ -964,7 +964,7 @@ Pemilik dapat menambahkan, mengubah, dan menghapus akun karyawan sesuai kebutuha
     </td>
     <td width="65%" valign="top">
 
-### Penjelasan
+### Tampilan saat tambah karyawan
 Saat menambahkan akun karyawan baru, pemilik diminta mengisi nama karyawan, email, dan password.  
 Form ini digunakan untuk membuat akun baru yang nantinya dapat digunakan untuk login ke dalam sistem.
 
@@ -992,7 +992,7 @@ Form ini digunakan untuk membuat akun baru yang nantinya dapat digunakan untuk l
     </td>
     <td width="65%" valign="top">
 
-### Halaman Manajemen Produk
+### Tampilan Manajemen Produk
 Halaman produk digunakan oleh pemilik untuk mengatur data produk yang dijual.  
 Pada halaman ini, pemilik dapat melihat daftar menu, harga, stok, serta gambar produk yang tersedia dalam sistem.
 
@@ -1020,7 +1020,7 @@ Pada halaman ini, pemilik dapat melihat daftar menu, harga, stok, serta gambar p
     </td>
     <td width="65%" valign="top">
 
-### Penjelasan
+### Tampilan saat menambah produk
 Saat menambahkan produk baru, pemilik perlu mengisi gambar produk, nama produk, harga jual, harga modal, dan stok.  
 Form ini digunakan untuk menambahkan menu baru agar dapat langsung digunakan pada transaksi penjualan.
 
@@ -1057,7 +1057,7 @@ Form ini digunakan untuk menambahkan menu baru agar dapat langsung digunakan pad
 
 <br><br>
 
-<b>Penjelasan:</b><br>
+<b>Tampilan saat mengedit atau menghapus produk:</b><br>
 Pemilik dapat memperbarui data produk yang sudah ada maupun menghapus produk yang tidak lagi dijual.  
 Fitur ini membuat data produk tetap rapi, relevan, dan sesuai dengan kondisi usaha saat ini.
 
@@ -1081,7 +1081,7 @@ Fitur ini membuat data produk tetap rapi, relevan, dan sesuai dengan kondisi usa
     </td>
     <td width="65%" valign="top">
 
-### Penjelasan
+### Halaman laporan pada akun pemilik
 Halaman laporan digunakan oleh pemilik untuk memantau performa usaha.  
 Pada halaman ini, pemilik dapat melihat omzet, keuntungan bersih, total barang keluar, produk terlaris, aktivitas, dan data transaksi secara menyeluruh.
 
@@ -1109,7 +1109,7 @@ Pada halaman ini, pemilik dapat melihat omzet, keuntungan bersih, total barang k
     </td>
     <td width="65%" valign="top">
 
-### Penjelasan
+### Tampilan produk terlaris dan rincian barang keluar
 Bagian ini menampilkan produk yang paling banyak terjual beserta jumlah penjualannya.  
 Selain itu, ditampilkan juga rincian barang keluar per produk agar pemilik dapat melihat performa masing-masing produk secara lebih detail.
 
@@ -1137,7 +1137,7 @@ Selain itu, ditampilkan juga rincian barang keluar per produk agar pemilik dapat
     </td>
     <td width="65%" valign="top">
 
-### Penjelasan
+### Grafik Keuntungan Bersih Bulanan
 Grafik ini menampilkan perkembangan keuntungan bersih bulanan berdasarkan transaksi yang tersimpan di dalam sistem.  
 Dengan visualisasi ini, pemilik dapat membaca perkembangan usaha dengan lebih mudah dan lebih cepat.
 
@@ -1271,37 +1271,7 @@ Widget ini digunakan pada halaman laporan untuk menampilkan grafik keuntungan da
 # 🧱 Struktur Halaman Aplikasi
 
 ```bash
-lib/
-│
-├── pages/
-│   ├── login_page.dart
-│   ├── employee_home_page.dart
-│   ├── owner_home_page.dart
-│   ├── cashier_page.dart
-│   ├── stock_management_page.dart
-│   ├── transaction_history_page.dart
-│   ├── employee_management_page.dart
-│   ├── product_management_page.dart
-│   ├── report_page.dart
-│   └── camera_capture_page.dart
-│
-├── models/
-│   ├── product_model.dart
-│   ├── transaction_model.dart
-│   ├── user_model.dart
-│   └── order_item_model.dart
-│
-└── services/
-    ├── auth_service.dart
-    ├── product_service.dart
-    ├── stock_service.dart
-    ├── transaction_service.dart
-    ├── employee_service.dart
-    └── report_service.dart
-```
 
-> **Catatan:**  
-> Struktur ini merupakan gambaran logis dari fitur aplikasi. Jika struktur project asli kalian berbeda, bagian ini bisa disesuaikan lagi dengan folder yang sebenarnya.
 
 ---
 
@@ -1321,21 +1291,7 @@ Kombinasi teknologi ini membuat aplikasi tidak hanya memiliki tampilan yang baik
 
 ---
 
-# 📦 Contoh Dependency yang Dapat Dicantumkan
 
-```yaml
-dependencies:
-  flutter:
-    sdk: flutter
-  supabase_flutter: ^latest_version
-  camera: ^latest_version
-  image_picker: ^latest_version
-  fl_chart: ^latest_version
-  shared_preferences: ^latest_version
-```
-
-> **Catatan:**  
-> Bagian dependency ini dapat disesuaikan lagi dengan isi `pubspec.yaml` project asli kalian.
 
 ---
 
@@ -1384,20 +1340,7 @@ Beberapa kelebihan dari aplikasi **Mama Piya Kasir** antara lain:
 
 ---
 
-# 📌 Kesimpulan
 
-Melalui project **Mama Piya Kasir**, kami mempelajari bahwa aplikasi mobile berbasis Flutter dapat digunakan untuk membangun sistem usaha yang cukup lengkap, tidak hanya dari sisi tampilan, tetapi juga dari sisi proses bisnis yang nyata.
-
-Project ini memberikan pengalaman dalam:
-- membangun sistem login berbasis role,
-- membuat alur transaksi dengan beberapa metode pembayaran,
-- menyimpan bukti pembayaran menggunakan kamera,
-- mengelola stok dan produk,
-- mengelola akun karyawan,
-- menyusun riwayat transaksi yang dapat dicari dan difilter,
-- serta menampilkan laporan usaha dalam bentuk data dan grafik.
-
-Secara keseluruhan, aplikasi ini menjadi bentuk penerapan pembelajaran Flutter yang terintegrasi, karena menggabungkan antarmuka, manajemen data, alur transaksi, dan fitur laporan ke dalam satu sistem yang saling terhubung.
 
 ---
 
@@ -1406,7 +1349,7 @@ Secara keseluruhan, aplikasi ini menjadi bentuk penerapan pembelajaran Flutter y
 ## ✨ Terima Kasih ✨
 
 Terima kasih telah membaca dokumentasi project kami.  
-Semoga aplikasi **Mama Piya Kasir** ini dapat menjadi project yang bermanfaat, menarik, dan dapat terus dikembangkan menjadi sistem yang lebih lengkap di masa mendatang.
+
 
 **Mama Piya Kasir 💙**  
 **Proyek Akhir PAB Kelompok**
