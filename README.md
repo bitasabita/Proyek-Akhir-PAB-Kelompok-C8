@@ -568,7 +568,7 @@ Pada ringkasan tersebut, item dapat ditambah, dikurangi, atau dihapus. Setelah t
 </div>
 <br><br>
 
-<b>Penjelasan:</b><br>
+<b>Transaksi QRIS:</b><br>
 Jika metode pembayaran yang dipilih adalah QRIS, maka setelah data pesanan selesai diinput, pengguna akan diarahkan ke kamera untuk mengambil foto bukti pembayaran.  
 Setelah bukti pembayaran berhasil diambil, sistem akan menampilkan notifikasi bahwa transaksi telah tersimpan pada riwayat transaksi dan laporan penjualan.
 
@@ -597,7 +597,7 @@ Setelah bukti pembayaran berhasil diambil, sistem akan menampilkan notifikasi ba
 
 <br><br>
 
-<b>Penjelasan:</b><br>
+<b>Transaksi Transfer:</b><br>
 Jika metode pembayaran yang dipilih adalah transfer, maka alurnya serupa dengan QRIS.  
 Pengguna akan diminta mengambil foto bukti pembayaran sebagai dokumentasi, kemudian transaksi akan disimpan ke dalam sistem.
 
@@ -614,14 +614,20 @@ Pengguna akan diminta mengambil foto bukti pembayaran sebagai dokumentasi, kemud
 
 <div align="center">
 
-📸 **Letakkan screenshot ringkasan pesanan / tampilan struk di sini**
+<table>
+  <tr>
+    <td align="center" width="35%">
+      <img src="https://github.com/user-attachments/assets/fd87e089-a31a-4718-8962-d08227d48ed9" alt="WhatsApp Image 2026-04-16 at 17 35 56" width="260" />
+    </td>
+    <td width="65%" valign="top">
 
-<br><br>
+### Ringkasan Pesanan
+Tulis penjelasan gambar di sini sesuai bagian dokumentasi yang kamu mau.  
+Misalnya isi penjelasannya tentang halaman tertentu, fitur tertentu, atau proses tertentu pada aplikasi.
 
-<b>Penjelasan:</b><br>
-Bagian ini menampilkan ringkasan pemesanan yang berisi nama pelanggan, metode pembayaran, daftar menu yang dipesan, jumlah item, serta total pesanan.  
-Tampilannya menyerupai struk digital, sehingga transaksi menjadi lebih mudah dibaca dan dicek kembali sebelum disimpan.
-
+   </td>
+  </tr>
+</table>
 </div>
 
 </details>
@@ -635,14 +641,20 @@ Tampilannya menyerupai struk digital, sehingga transaksi menjadi lebih mudah dib
 
 <div align="center">
 
-📸 **Letakkan screenshot halaman stok di sini**
+<table>
+  <tr>
+    <td align="center" width="35%">
+      <img src="https://github.com/user-attachments/assets/90bb0544-f91d-496e-9881-c74bb6ca4d3a" alt="WhatsApp Image 2026-04-16 at 17 39 27" width="220" />
+    </td>
+    <td width="65%" valign="top">
 
-<br><br>
-
-<b>Penjelasan:</b><br>
+### Halaman Stok
 Halaman stok digunakan untuk memantau persediaan produk.  
 Pada halaman ini, pengguna dapat melihat semua stok, stok menipis, dan stok habis, sehingga kondisi barang dapat dipantau dengan lebih jelas.
 
+   </td>
+  </tr>
+</table>
 </div>
 
 </details>
@@ -656,13 +668,20 @@ Pada halaman ini, pengguna dapat melihat semua stok, stok menipis, dan stok habi
 
 <div align="center">
 
-📸 **Letakkan screenshot fitur pencarian produk di halaman stok di sini**
+<table>
+  <tr>
+    <td align="center" width="35%">
+      <img src="https://github.com/user-attachments/assets/6bb32937-7df2-41f5-942a-e926da13e7d4" alt="WhatsApp Image 2026-04-16 at 17 41 51" width="220" />
+    </td>
+    <td width="65%" valign="top">
 
-<br><br>
-
-<b>Penjelasan:</b><br>
+### Fitur Pencarian Produk
 Pada menu stok, pengguna juga dapat mencari nama produk tertentu melalui fitur pencarian.  
 Fitur ini memudahkan pengguna ketika ingin menemukan produk tertentu tanpa perlu mencari secara manual dari seluruh daftar barang.
+
+   </td>
+  </tr>
+</table>
 
 </div>
 
@@ -677,7 +696,11 @@ Fitur ini memudahkan pengguna ketika ingin menemukan produk tertentu tanpa perlu
 
 <div align="center">
 
-📸 **Letakkan screenshot proses update stok di sini**
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/999df565-57f8-4442-b028-344f5ed9dd24" alt="image 1" width="220" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://github.com/user-attachments/assets/644a54ac-e4e6-4c23-8f7f-577b57819989" alt="image 2" width="220" />
+</div>
 
 <br><br>
 
@@ -698,13 +721,59 @@ Pengguna hanya perlu memasukkan angka stok terbaru, lalu sistem akan menyimpan p
 
 <div align="center">
 
-📸 **Letakkan screenshot riwayat transaksi pada akun karyawan di sini**
+<table>
+  <tr>
+    <td align="center" width="35%">
+      <img src="https://github.com/user-attachments/assets/d87cae4b-c0b5-4478-8208-947c0f29527f" alt="Riwayat transaksi" width="220" />
+    </td>
+    <td width="65%" valign="top">
 
-<br><br>
+### Halaman Riwayat Transaksi
+Gambar ini menampilkan **halaman riwayat transaksi** pada akun karyawan.  
+Pada halaman ini, karyawan dapat melihat daftar transaksi yang telah tersimpan di dalam sistem.
 
-<b>Penjelasan:</b><br>
-Pada akun karyawan, halaman riwayat transaksi menampilkan daftar transaksi yang sudah tersimpan.  
-Tampilan ini digunakan untuk melihat data transaksi berdasarkan pencarian pelanggan, kasir, atau metode pembayaran.
+   </td>
+  </tr>
+
+  <tr>
+    <td align="center" width="35%">
+      <img src="https://github.com/user-attachments/assets/f9fc5a01-1325-4a7a-abba-f4a46faaec74" alt="Tampilan transaksi tersimpan" width="220" />
+    </td>
+    <td width="65%" valign="top">
+
+### Riwayat Transaksi
+Gambar ini menunjukkan **tampilan riwayat transaksi yang sudah tersimpan**.  
+Data transaksi ditampilkan secara rapi sehingga pengguna dapat melihat informasi transaksi yang telah berhasil masuk ke sistem.
+
+   </td>
+  </tr>
+
+  <tr>
+    <td align="center" width="35%">
+      <img src="https://github.com/user-attachments/assets/9de67ff5-58e4-4083-b5e8-212f2042454b" alt="Pencarian pelanggan atau kasir" width="220" />
+    </td>
+    <td width="65%" valign="top">
+
+### Fitur Pencarian berdasarkan nama
+Gambar ini menunjukkan fitur pencarian transaksi berdasarkan **nama pelanggan** atau **nama kasir**.  
+Fitur ini memudahkan pengguna ketika ingin mencari data transaksi tertentu tanpa perlu melihat seluruh daftar transaksi secara manual.
+
+   </td>
+  </tr>
+
+  <tr>
+    <td align="center" width="35%">
+      <img src="https://github.com/user-attachments/assets/85ddac20-efc7-4f1c-8097-1120c806c6d9" alt="Filter metode pembayaran" width="220" />
+    </td>
+    <td width="65%" valign="top">
+
+### Fitur Pencarian berdasarkan metode pembayaran
+Gambar ini menunjukkan hasil pencarian transaksi berdasarkan **metode pembayaran**.  
+Ketika pengguna memilih metode pembayaran tertentu, maka jumlah transaksi yang ditampilkan akan menyesuaikan dengan filter yang dipilih, misalnya tunai, QRIS, atau transfer.
+
+   </td>
+  </tr>
+</table>
 
 </div>
 
