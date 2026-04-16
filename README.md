@@ -985,13 +985,20 @@ Form ini digunakan untuk membuat akun baru yang nantinya dapat digunakan untuk l
 
 <div align="center">
 
-📸 **Letakkan screenshot halaman produk di sini**
+<table>
+  <tr>
+    <td align="center" width="35%">
+      <img src="https://github.com/user-attachments/assets/04b4bd69-fb06-4868-901a-89123c299c3d" alt="WhatsApp Image 2026-04-16 at 19 23 12" width="220" />
+    </td>
+    <td width="65%" valign="top">
 
-<br><br>
-
-<b>Penjelasan:</b><br>
+### Halaman Manajemen Produk
 Halaman produk digunakan oleh pemilik untuk mengatur data produk yang dijual.  
 Pada halaman ini, pemilik dapat melihat daftar menu, harga, stok, serta gambar produk yang tersedia dalam sistem.
+
+   </td>
+  </tr>
+</table>
 
 </div>
 
@@ -1006,13 +1013,20 @@ Pada halaman ini, pemilik dapat melihat daftar menu, harga, stok, serta gambar p
 
 <div align="center">
 
-📸 **Letakkan screenshot form tambah produk di sini**
+<table>
+  <tr>
+    <td align="center" width="35%">
+      <img src="https://github.com/user-attachments/assets/5e8b0728-ccaf-4b74-a5bb-efa0bd99d211" alt="WhatsApp Image 2026-04-16 at 19 25 37" width="220" />
+    </td>
+    <td width="65%" valign="top">
 
-<br><br>
-
-<b>Penjelasan:</b><br>
+### Penjelasan
 Saat menambahkan produk baru, pemilik perlu mengisi gambar produk, nama produk, harga jual, harga modal, dan stok.  
 Form ini digunakan untuk menambahkan menu baru agar dapat langsung digunakan pada transaksi penjualan.
+
+   </td>
+  </tr>
+</table>
 
 </div>
 
@@ -1027,7 +1041,19 @@ Form ini digunakan untuk menambahkan menu baru agar dapat langsung digunakan pad
 
 <div align="center">
 
-📸 **Letakkan screenshot edit produk atau hapus produk di sini**
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/c13f0065-0672-494c-a20e-5cdd62867929" alt="Edit produk" width="220" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://github.com/user-attachments/assets/401e52f2-b64f-4e29-96a0-112feaae9232" alt="Hapus produk" width="220" />
+</div>
+
+<br>
+
+<div align="center">
+  <b>Kiri:</b> Tampilan untuk memperbarui data produk yang sudah ada.  
+  <br>
+  <b>Kanan:</b> Tampilan untuk menghapus produk yang tidak lagi dijual.
+</div>
 
 <br><br>
 
@@ -1048,13 +1074,20 @@ Fitur ini membuat data produk tetap rapi, relevan, dan sesuai dengan kondisi usa
 
 <div align="center">
 
-📸 **Letakkan screenshot halaman laporan di sini**
+<table>
+  <tr>
+    <td align="center" width="35%">
+      <img src="https://github.com/user-attachments/assets/b12360f3-9236-4db9-bbf5-28f92cf3eedc" alt="Halaman laporan" width="220" />
+    </td>
+    <td width="65%" valign="top">
 
-<br><br>
-
-<b>Penjelasan:</b><br>
+### Penjelasan
 Halaman laporan digunakan oleh pemilik untuk memantau performa usaha.  
 Pada halaman ini, pemilik dapat melihat omzet, keuntungan bersih, total barang keluar, produk terlaris, aktivitas, dan data transaksi secara menyeluruh.
+
+   </td>
+  </tr>
+</table>
 
 </div>
 
@@ -1069,13 +1102,20 @@ Pada halaman ini, pemilik dapat melihat omzet, keuntungan bersih, total barang k
 
 <div align="center">
 
-📸 **Letakkan screenshot produk terlaris dan rincian barang keluar di sini**
+<table>
+  <tr>
+    <td align="center" width="35%">
+      <img src="https://github.com/user-attachments/assets/b1815e62-5695-423c-ba58-56800373560b" alt="Produk terlaris dan rincian barang keluar" width="280" />
+    </td>
+    <td width="65%" valign="top">
 
-<br><br>
-
-<b>Penjelasan:</b><br>
+### Penjelasan
 Bagian ini menampilkan produk yang paling banyak terjual beserta jumlah penjualannya.  
 Selain itu, ditampilkan juga rincian barang keluar per produk agar pemilik dapat melihat performa masing-masing produk secara lebih detail.
+
+   </td>
+  </tr>
+</table>
 
 </div>
 
@@ -1090,14 +1130,20 @@ Selain itu, ditampilkan juga rincian barang keluar per produk agar pemilik dapat
 
 <div align="center">
 
-📸 **Letakkan screenshot grafik keuntungan bersih bulanan di sini**
+<table>
+  <tr>
+    <td align="center" width="35%">
+      <img src="https://github.com/user-attachments/assets/2da24db6-d3f4-4ee8-97b1-6e6bc28aa6d8" alt="Grafik keuntungan bersih bulanan" width="280" />
+    </td>
+    <td width="65%" valign="top">
 
-<br><br>
-
-<b>Penjelasan:</b><br>
+### Penjelasan
 Grafik ini menampilkan perkembangan keuntungan bersih bulanan berdasarkan transaksi yang tersimpan di dalam sistem.  
 Dengan visualisasi ini, pemilik dapat membaca perkembangan usaha dengan lebih mudah dan lebih cepat.
 
+   </td>
+  </tr>
+</table>
 </div>
 
 </details>
