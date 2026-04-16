@@ -10,9 +10,8 @@
 
 ![Flutter](https://img.shields.io/badge/Framework-Flutter-02569B?style=for-the-badge&logo=flutter)
 ![Dart](https://img.shields.io/badge/Language-Dart-0175C2?style=for-the-badge&logo=dart)
-![Supabase](https://img.shields.io/badge/Backend-Supabase-3ECF8E?style=for-the-badge&logo=supabase)
-![Camera](https://img.shields.io/badge/Feature-Camera-orange?style=for-the-badge&logo=googlecamera)
-
+![Database](https://img.shields.io/badge/Database-Supabase-3ECF8E?style=for-the-badge&logo=supabase)
+![Feature](https://img.shields.io/badge/Feature-Camera-orange?style=for-the-badge&logo=googlecamera)
 </div>
 
 ---
@@ -23,10 +22,10 @@
 
 | No | Nama Anggota | NIM | Kelas |
 |----|--------------|-----|-------|
-| 1 | Isi Nama Anggota 1 | Isi NIM 1 | Isi Kelas |
-| 2 | Isi Nama Anggota 2 | Isi NIM 2 | Isi Kelas |
-| 3 | Isi Nama Anggota 3 | Isi NIM 3 | Isi Kelas |
-| 4 | Isi Nama Anggota 4 | Isi NIM 4 | Isi Kelas |
+| 1 | Nova Rasyadina Anwar  | 2409116092 | Sistem Informasi C |
+| 2 | Dafa Firdaus | 2409116093 |  Sistem Informasi C |
+| 3 | Tsabitah Kawiswara | 2409116099 |  Sistem Informasi C |
+| 4 | Ahmad Samsul Arifin  | 2409116113 |  Sistem Informasi C |
 
 </div>
 
@@ -251,7 +250,7 @@ Dari alur ini terlihat bahwa fitur-fitur dalam aplikasi saling terhubung dan mem
 
 ---
 
-# 🧠 Use Case Sederhana
+# 🧠 Use Case Aplikasi
 
 ## 👑 Owner
 Owner dapat melakukan:
