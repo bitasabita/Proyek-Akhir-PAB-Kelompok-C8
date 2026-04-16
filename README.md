@@ -4,14 +4,15 @@
 ### 🍽️ Mama Piya Kasir  
 ### 📱 Aplikasi Mobile Sistem Kasir dan Manajemen Penjualan
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:F59E0B,100:DC2626&height=190&section=header&text=Mama%20Piya%20Kasir📠&fontSize=30&fontColor=ffffff" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:F59E0B,100:DC2626&height=190&section=header&text=Mama%20Piya%20Kasir&fontSize=30&fontColor=ffffff" />
 
 <br>
 
 ![Flutter](https://img.shields.io/badge/Framework-Flutter-02569B?style=for-the-badge&logo=flutter)
 ![Dart](https://img.shields.io/badge/Language-Dart-0175C2?style=for-the-badge&logo=dart)
 ![Database](https://img.shields.io/badge/Database-Supabase-3ECF8E?style=for-the-badge&logo=supabase)
-![Feature](https://img.shields.io/badge/Feature-Camera-orange?style=for-the-badge&logo=googlecamera)
+![Fitur](https://img.shields.io/badge/Fitur-Kamera-orange?style=for-the-badge&logo=googlecamera)
+
 </div>
 
 ---
@@ -22,10 +23,10 @@
 
 | No | Nama Anggota | NIM | Kelas |
 |----|--------------|-----|-------|
-| 1 | Nova Rasyadina Anwar  | 2409116092 | Sistem Informasi C |
-| 2 | Dafa Firdaus | 2409116093 |  Sistem Informasi C |
-| 3 | Tsabitah Kawiswara | 2409116099 |  Sistem Informasi C |
-| 4 | Ahmad Samsul Arifin  | 2409116113 |  Sistem Informasi C |
+| 1 | Nova Rasyadina Anwar | 2409116092 | Sistem Informasi C |
+| 2 | Dafa Firdaus | 2409116093 | Sistem Informasi C |
+| 3 | Tsabitah Kawiswara | 2409116099 | Sistem Informasi C |
+| 4 | Ahmad Samsul Arifin | 2409116113 | Sistem Informasi C |
 
 </div>
 
@@ -35,32 +36,33 @@
 
 ## 🌟 Gambaran Umum
 
-**Mama Piya Kasir** adalah aplikasi mobile berbasis Flutter yang dirancang untuk membantu proses operasional usaha, khususnya dalam kegiatan transaksi penjualan, pengelolaan produk, pengaturan stok, pencatatan riwayat transaksi, hingga pemantauan laporan penjualan.
+**Mama Piya Kasir** adalah aplikasi mobile berbasis Flutter yang dirancang untuk membantu kegiatan operasional usaha, khususnya dalam proses transaksi penjualan, pengelolaan stok, manajemen produk, pengelolaan akun karyawan, pencatatan riwayat transaksi, serta pemantauan laporan penjualan.
 
-Secara sederhana, aplikasi ini dibuat untuk menjawab kebutuhan usaha agar proses pencatatan tidak lagi dilakukan secara manual. Dalam kegiatan penjualan sehari-hari, sering kali muncul kendala seperti data transaksi yang tidak tersusun rapi, stok barang yang sulit dipantau, dan laporan penjualan yang tidak terdokumentasi dengan baik. Karena itu, aplikasi ini hadir sebagai solusi digital yang lebih praktis, cepat, dan terorganisir.
+Aplikasi ini dibuat sebagai solusi digital agar proses pencatatan usaha tidak lagi dilakukan secara manual. Dalam kegiatan usaha sehari-hari, sering muncul kendala seperti transaksi yang tidak tercatat rapi, stok yang sulit dipantau, data produk yang berubah-ubah, dan laporan penjualan yang kurang terorganisir. Oleh karena itu, aplikasi ini hadir untuk membantu pemilik usaha maupun karyawan agar dapat bekerja dengan lebih cepat, lebih terstruktur, dan lebih efisien.
 
-Aplikasi ini tidak hanya berfungsi sebagai sistem kasir, tetapi juga sebagai media pengelolaan usaha secara lebih menyeluruh. Pengguna dapat melakukan transaksi, mengelola data produk, memperbarui stok, memantau histori transaksi, dan melihat laporan penjualan dalam satu aplikasi yang terintegrasi.
+Secara fungsi, aplikasi ini tidak hanya berperan sebagai **aplikasi kasir**, tetapi juga sebagai **sistem manajemen usaha sederhana** yang terintegrasi. Seluruh proses, mulai dari input transaksi, penyimpanan bukti pembayaran, pembaruan stok, pencarian riwayat transaksi, hingga pemantauan omzet dan keuntungan, dapat dilakukan dalam satu aplikasi.
 
-Selain itu, aplikasi ini juga menerapkan sistem **hak akses pengguna**, yaitu:
-- **Owner**, yang memiliki akses penuh terhadap pengelolaan usaha
-- **Karyawan**, yang memiliki akses sesuai kebutuhan operasional harian
+Aplikasi ini juga menerapkan **hak akses berdasarkan peran pengguna**, yaitu:
 
-Dengan adanya pembagian hak akses tersebut, sistem menjadi lebih aman, tertata, dan sesuai dengan peran masing-masing pengguna.
+- **Karyawan**, yang memiliki akses ke menu operasional seperti kasir, stok, dan riwayat transaksi
+- **Pemilik / Owner**, yang memiliki akses lebih luas, mencakup menu operasional, manajemen karyawan, manajemen produk, serta laporan penjualan
+
+Dengan pembagian hak akses tersebut, sistem menjadi lebih aman, lebih tertata, dan lebih sesuai dengan kebutuhan masing-masing pengguna.
 
 ---
 
 # 🎯 Tujuan Pembuatan Aplikasi
 
-Aplikasi ini dibuat dengan beberapa tujuan utama, yaitu:
+Aplikasi ini dibuat dengan tujuan untuk:
 
-- mempermudah proses transaksi penjualan,
-- membantu pencatatan usaha agar lebih rapi dan terstruktur,
-- memantau stok produk secara lebih efisien,
-- menyimpan data transaksi sebagai arsip digital,
-- menyediakan laporan penjualan yang lebih mudah dibaca,
-- serta meningkatkan efektivitas kerja owner maupun karyawan.
+- mempermudah proses transaksi pelanggan,
+- membantu pencatatan usaha agar lebih rapi dan terdokumentasi,
+- mempermudah pengecekan dan pembaruan stok produk,
+- menyediakan riwayat transaksi yang mudah dicari,
+- membantu pemilik usaha dalam memantau omzet dan keuntungan,
+- serta meningkatkan efisiensi kerja owner maupun karyawan.
 
-Melalui aplikasi ini, proses pengelolaan usaha diharapkan menjadi lebih modern, efisien, dan minim kesalahan.
+Dengan adanya aplikasi ini, proses pengelolaan usaha diharapkan menjadi lebih modern, sistematis, dan minim kesalahan.
 
 ---
 
@@ -71,162 +73,267 @@ Melalui aplikasi ini, proses pengelolaan usaha diharapkan menjadi lebih modern, 
 
 <br>
 
-## 1. 🔐 Login Pengguna
-Aplikasi menyediakan halaman login sebagai pintu masuk utama ke dalam sistem.  
-Pengguna perlu memasukkan email dan password agar dapat mengakses fitur yang tersedia sesuai hak akses masing-masing.
+# 1. 🔐 Login Berdasarkan Role Pengguna
+Aplikasi menyediakan halaman login yang digunakan sebagai pintu masuk utama ke dalam sistem.  
+Setelah pengguna berhasil login, sistem akan menyesuaikan tampilan menu sesuai dengan role akun yang digunakan, yaitu **karyawan** atau **pemilik**.
 
-Fungsi utama fitur ini adalah:
-- melakukan autentikasi pengguna,
-- menjaga keamanan akses aplikasi,
-- serta membedakan tampilan dan menu berdasarkan role user.
+Fitur ini penting karena menjadi dasar pembagian hak akses di dalam aplikasi.
 
 ---
 
-## 2. 👑 Dashboard Owner
-Halaman dashboard owner berfungsi sebagai pusat kontrol utama dalam aplikasi.  
-Pada halaman ini, owner dapat mengakses berbagai menu penting yang berkaitan dengan pengelolaan usaha.
+# 2. 👨‍💼 Menu Karyawan
+Jika pengguna masuk sebagai **karyawan**, maka akan muncul menu operasional berikut:
 
-Beberapa akses yang tersedia untuk owner antara lain:
-- manajemen produk,
-- manajemen stok,
-- laporan penjualan,
-- riwayat transaksi,
-- serta pengelolaan data karyawan.
+- **Kasir**
+- **Stok**
+- **Riwayat Transaksi**
 
-Fitur ini sangat membantu owner karena seluruh aktivitas utama usaha dapat dipantau dari satu halaman.
+Menu yang ditampilkan untuk karyawan dibuat fokus pada kebutuhan operasional harian, sehingga penggunaan aplikasi menjadi lebih sederhana dan efisien.
 
 ---
 
-## 3. 👨‍💼 Dashboard Karyawan
-Selain owner, aplikasi juga menyediakan dashboard khusus untuk karyawan.  
-Tampilan dashboard karyawan dirancang lebih sederhana dan fokus pada fitur operasional yang dibutuhkan dalam kegiatan harian.
+# 3. 🧾 Fitur Kasir untuk Karyawan
+Pada menu **Kasir**, karyawan dapat melakukan input transaksi pelanggan.  
+Alur transaksi yang tersedia meliputi:
 
-Adanya perbedaan dashboard ini menunjukkan bahwa aplikasi telah menerapkan sistem pembagian akses berdasarkan peran pengguna.
+- menginput **nama pelanggan**
+- memilih **metode pembayaran**
+- menambahkan **menu makanan** ke daftar pesanan
+- melihat **ringkasan pemesanan**
+- melihat **jumlah item**
+- menambah, mengurangi, atau menghapus item
+- melihat **nama pelanggan**
+- melihat **metode pembayaran**
+- melihat **total pesanan**
+- menyimpan transaksi
 
----
-
-## 4. 🛍️ Manajemen Produk
-Aplikasi menyediakan fitur pengelolaan data produk yang cukup lengkap.  
-Pengguna dapat:
-- menambahkan produk baru,
-- mengedit data produk,
-- menghapus produk,
-- menambahkan gambar produk,
-- mengatur harga modal,
-- mengatur harga jual,
-- dan melihat daftar produk yang tersedia.
-
-Fitur ini menjadi bagian penting karena semua proses transaksi bergantung pada data produk yang telah tersimpan.
+Ringkasan transaksi ditampilkan seperti struk sederhana, sehingga data pesanan terlihat lebih jelas dan rapi.
 
 ---
 
-## 5. 📸 Penggunaan Gambar Produk
-Setiap produk dapat disertai gambar agar tampilannya lebih informatif dan menarik.  
-Dengan adanya gambar produk, pengguna menjadi lebih mudah mengenali barang yang dijual, sehingga tampilan aplikasi juga terasa lebih profesional.
+# 4. 💳 Metode Pembayaran pada Menu Kasir
+Aplikasi menyediakan tiga metode pembayaran, yaitu:
 
----
-
-## 6. 📦 Manajemen Stok
-Aplikasi memiliki halaman khusus untuk pengelolaan stok barang.  
-Melalui fitur ini, pengguna dapat:
-- melihat jumlah stok setiap produk,
-- memperbarui stok barang,
-- mengetahui stok yang menipis,
-- dan memantau stok yang habis.
-
-Fitur stok sangat penting agar proses penjualan tetap berjalan lancar dan tidak terjadi kesalahan saat melayani pelanggan.
-
----
-
-## 7. 🧾 Halaman Kasir / Transaksi
-Halaman kasir merupakan fitur inti dalam aplikasi ini.  
-Pada bagian ini, pengguna dapat:
-- memilih produk yang dibeli pelanggan,
-- menentukan jumlah pesanan,
-- melihat daftar item yang dipilih,
-- menghitung total transaksi,
-- dan menyimpan data penjualan.
-
-Fitur ini membantu proses transaksi menjadi lebih cepat, tepat, dan terstruktur.
-
----
-
-## 8. 💳 Metode Pembayaran
-Aplikasi mendukung beberapa metode pembayaran, seperti:
 - **Tunai**
-- **Transfer**
 - **QRIS**
+- **Transfer**
 
-Dengan pilihan metode pembayaran ini, transaksi dapat dilakukan secara lebih fleksibel sesuai kebutuhan pelanggan.
-
----
-
-## 9. 📷 Bukti Pembayaran melalui Kamera
-Untuk pembayaran non-tunai, aplikasi menyediakan fitur pengambilan bukti pembayaran menggunakan kamera perangkat.
-
-Fitur ini memberikan nilai tambah karena sistem tidak hanya mencatat metode pembayaran, tetapi juga dapat menyimpan bukti transaksi sebagai bagian dari dokumentasi.
+Masing-masing metode memiliki alur penggunaan yang menyesuaikan kebutuhan transaksi.
 
 ---
 
-## 10. 🕘 Riwayat Transaksi
-Aplikasi menyediakan halaman riwayat transaksi yang berisi data seluruh transaksi yang telah dilakukan.
+# 5. 💵 Alur Transaksi Tunai
+Jika karyawan memilih metode pembayaran **tunai**, maka setelah nama pelanggan diisi dan metode pembayaran dipilih, karyawan dapat langsung menambahkan menu makanan ke daftar pesanan.
 
-Fitur ini berguna untuk:
-- melihat transaksi sebelumnya,
-- mengecek data penjualan yang sudah masuk,
-- mencari transaksi tertentu,
-- dan memudahkan proses pelacakan data.
+Setelah item masuk ke ringkasan pesanan, karyawan dapat:
 
-Riwayat transaksi menjadi arsip digital yang penting untuk evaluasi maupun pengecekan ulang.
+- menambah jumlah item,
+- mengurangi jumlah item,
+- menghapus item tertentu,
+- melihat ringkasan seperti struk,
+- dan menyimpan transaksi.
 
----
-
-## 11. 🔎 Filter Riwayat Transaksi
-Riwayat transaksi dapat difilter berdasarkan:
-- periode waktu,
-- metode pembayaran,
-- atau kebutuhan pencarian tertentu.
-
-Fitur filter ini sangat membantu, terutama ketika jumlah transaksi sudah banyak dan pengguna ingin mencari data secara lebih spesifik.
+Setelah transaksi disimpan, akan muncul notifikasi bahwa transaksi telah masuk ke **riwayat transaksi** dan **laporan penjualan**.
 
 ---
 
-## 12. 📊 Laporan Penjualan
-Aplikasi menyediakan fitur laporan penjualan yang menampilkan ringkasan kondisi usaha berdasarkan data transaksi yang sudah masuk.
+# 6. 📷 Alur Transaksi QRIS
+Jika karyawan memilih metode pembayaran **QRIS**, maka setelah data pelanggan dan pesanan selesai diinput, aplikasi akan mengarahkan pengguna ke halaman kamera.
 
-Informasi yang dapat ditampilkan antara lain:
-- omzet penjualan,
-- profit atau keuntungan,
-- produk terlaris,
-- dan aktivitas transaksi.
+Pada tahap ini, karyawan diminta mengambil foto sebagai **bukti pembayaran QRIS**.  
+Setelah foto berhasil diambil, sistem akan menampilkan notifikasi bahwa transaksi telah masuk ke **riwayat transaksi** dan **laporan penjualan**.
 
-Fitur ini sangat berguna bagi owner karena membantu dalam proses evaluasi usaha secara lebih terukur.
+Fitur ini membuat transaksi non-tunai menjadi lebih terdokumentasi.
 
 ---
 
-## 13. 👥 Manajemen Karyawan
-Owner dapat menambah, mengedit, dan menghapus data karyawan yang menggunakan sistem.
+# 7. 📷 Alur Transaksi Transfer
+Jika karyawan memilih metode pembayaran **transfer**, alurnya hampir sama dengan QRIS.
 
-Fitur ini mendukung:
-- pengelolaan akun pengguna,
-- pembagian akses kerja,
-- serta kontrol terhadap siapa saja yang dapat menggunakan aplikasi.
+Setelah data transaksi selesai diinput, pengguna akan diarahkan ke kamera untuk mengambil **foto bukti pembayaran transfer**.  
+Setelah bukti pembayaran berhasil disimpan, sistem akan menampilkan notifikasi bahwa transaksi telah masuk ke **riwayat transaksi** dan **laporan penjualan**.
 
 ---
 
-## 14. ✅ Validasi Input
-Aplikasi juga menerapkan validasi pada berbagai form input, misalnya:
-- nama produk tidak boleh kosong,
-- harga harus berupa angka,
-- stok harus valid,
-- dan beberapa input lain harus sesuai format.
+# 8. 📦 Menu Stok untuk Karyawan
+Pada menu **Stok**, karyawan dapat melakukan pengelolaan stok barang.
 
-Tujuan validasi ini adalah untuk mengurangi kesalahan input dan menjaga kualitas data di dalam sistem.
+Fitur yang tersedia pada halaman ini meliputi:
+- melihat **seluruh stok**
+- melihat **stok yang menipis**
+- melihat **stok yang habis**
+- mencari nama produk tertentu melalui fitur **searching**
+- melakukan **update stok** pada produk tertentu
+
+Dengan fitur ini, karyawan dapat membantu memantau kondisi persediaan produk secara lebih cepat dan lebih akurat.
 
 ---
 
-## 15. 🚪 Logout dan Session Handling
-Aplikasi menyediakan fitur logout serta pengelolaan sesi login agar penggunaan aplikasi tetap aman dan tertib.
+# 9. 🔄 Update Stok Produk
+Setiap produk yang ada pada halaman stok dapat diedit jumlah stoknya.  
+Karyawan dapat melakukan pembaruan stok dengan cara memasukkan angka terbaru pada form update stok.
+
+Fitur ini berguna ketika:
+- ada barang baru masuk,
+- ada koreksi data stok,
+- atau ada penyesuaian stok berdasarkan kondisi sebenarnya.
+
+---
+
+# 10. 🕘 Riwayat Transaksi untuk Karyawan
+Pada menu **Riwayat Transaksi**, karyawan dapat melihat daftar transaksi yang sudah tersimpan.
+
+Data transaksi dapat dicari berdasarkan:
+- **nama pelanggan**
+- **nama kasir**
+- **metode pembayaran**
+
+Selain itu, transaksi juga dapat difilter berdasarkan periode waktu:
+- **semua**
+- **hari ini**
+- **minggu ini**
+- **bulan ini**
+
+Karyawan juga dapat memfilter transaksi berdasarkan metode pembayaran:
+- **semua**
+- **tunai**
+- **QRIS**
+- **transfer**
+
+---
+
+# 11. 🧾 Tampilan Detail Riwayat Transaksi
+Tampilan riwayat transaksi disusun seperti **struk digital**, sehingga informasi transaksi terlihat lengkap dan mudah dibaca.
+
+Informasi yang dapat dilihat pada riwayat transaksi antara lain:
+- nama kasir
+- waktu transaksi
+- total pembayaran
+- metode pembayaran
+- bukti pembayaran berupa foto
+
+Hal ini membuat riwayat transaksi tidak hanya berfungsi sebagai daftar data, tetapi juga sebagai dokumentasi transaksi yang lengkap.
+
+---
+
+# 12. 👑 Menu Pemilik / Owner
+Jika pengguna masuk sebagai **pemilik**, maka menu yang tersedia lebih lengkap dan terbagi menjadi beberapa kelompok, yaitu:
+
+## Menu Operasional
+- **Kasir**
+- **Stok**
+- **Riwayat Transaksi**
+
+## Menu Manajemen
+- **Karyawan**
+- **Produk**
+
+## Menu Laporan
+- **Laporan**
+
+Dengan susunan menu ini, pemilik usaha dapat mengontrol seluruh aktivitas penting usaha dari satu aplikasi.
+
+---
+
+# 13. 🧾 Kasir untuk Pemilik
+Jika pemilik memilih menu **Kasir**, maka tampilan dan alur penggunaannya sama seperti menu kasir pada akun karyawan.
+
+Pemilik juga dapat:
+- menginput nama pelanggan,
+- memilih metode pembayaran,
+- menambahkan menu pesanan,
+- melihat ringkasan transaksi,
+- menyimpan transaksi,
+- serta mengunggah bukti pembayaran untuk QRIS dan transfer.
+
+---
+
+# 14. 📦 Stok untuk Pemilik
+Jika pemilik memilih menu **Stok**, maka fitur yang tersedia juga sama seperti pada akun karyawan, yaitu:
+- melihat semua stok,
+- melihat stok menipis,
+- melihat stok habis,
+- mencari produk,
+- dan memperbarui jumlah stok.
+
+Dengan demikian, pemilik tetap bisa memantau dan mengelola persediaan barang secara langsung.
+
+---
+
+# 15. 🕘 Riwayat Transaksi untuk Pemilik
+Jika pemilik memilih menu **Riwayat Transaksi**, maka tampilannya secara umum sama seperti pada akun karyawan.
+
+Namun, terdapat perbedaan penting, yaitu:
+- **pemilik dapat melihat total omzet**
+- sedangkan **karyawan tidak dapat melihat total omzet**
+
+Perbedaan ini menunjukkan bahwa aplikasi telah membedakan informasi yang dapat diakses sesuai dengan level pengguna.
+
+---
+
+# 16. 👥 Manajemen Karyawan
+Jika pemilik memilih menu **Karyawan**, maka pemilik dapat:
+- menambahkan akun karyawan,
+- mengubah data karyawan,
+- menghapus akun karyawan
+
+Saat menambahkan akun karyawan, data yang perlu diinput antara lain:
+- **nama karyawan**
+- **email**
+- **password**
+
+Fitur ini memudahkan pemilik dalam mengelola akun pengguna yang terdaftar di dalam sistem.
+
+---
+
+# 17. 🛍️ Manajemen Produk
+Jika pemilik memilih menu **Produk**, maka pemilik dapat:
+- menambahkan produk
+- mengubah data produk
+- menghapus produk
+- mengatur menu
+- mengatur harga jual
+- mengatur harga modal
+- mengatur stok
+- menambahkan gambar produk
+
+Saat menambahkan produk, data yang perlu diinput antara lain:
+- **gambar produk**
+- **nama produk**
+- **harga jual**
+- **harga modal**
+- **stok**
+
+Fitur ini sangat penting karena seluruh transaksi akan menggunakan data produk yang tersimpan pada sistem.
+
+---
+
+# 18. 📊 Menu Laporan
+Jika pemilik memilih menu **Laporan**, maka pemilik dapat memantau berbagai informasi penting terkait usaha, yaitu:
+
+- **omzet**
+- **keuntungan bersih**
+- **produk terlaris**
+- **aktivitas**
+- **total barang keluar**
+- **rincian barang keluar per produk**
+- **semua transaksi**
+- **grafik keuntungan bersih bulanan berdasarkan transaksi yang tersimpan**
+
+Laporan ini membantu pemilik dalam mengevaluasi performa usaha secara lebih terukur dan berbasis data.
+
+---
+
+# 19. 🏆 Produk Terlaris dan Rincian Penjualan
+Pada bagian laporan, pemilik dapat melihat produk terlaris beserta jumlah produk yang paling banyak terjual.
+
+Selain itu, tersedia juga rincian barang keluar per produk, sehingga pemilik dapat mengetahui produk mana yang paling aktif terjual dan berapa jumlah item yang sudah keluar.
+
+---
+
+# 20. 📈 Grafik Keuntungan Bersih Bulanan
+Aplikasi juga menyediakan visualisasi data dalam bentuk grafik keuntungan bersih bulanan.  
+Grafik ini disusun berdasarkan transaksi yang telah tersimpan di dalam sistem, sehingga pemilik dapat melihat perkembangan keuntungan dari waktu ke waktu secara lebih mudah.
 
 </details>
 
@@ -238,43 +345,66 @@ Berikut gambaran alur kerja aplikasi secara umum:
 
 1. Pengguna membuka aplikasi  
 2. Pengguna login ke dalam sistem  
-3. Sistem menyesuaikan tampilan berdasarkan role user  
-4. Owner dapat mengelola produk, stok, karyawan, dan laporan  
-5. Karyawan atau owner dapat melakukan transaksi pada halaman kasir  
-6. Sistem menyimpan data transaksi yang berhasil dibuat  
-7. Data transaksi masuk ke riwayat transaksi  
-8. Data penjualan akan memengaruhi laporan penjualan  
-9. Stok produk ikut diperbarui sesuai transaksi yang terjadi  
+3. Sistem mengenali role pengguna, apakah sebagai karyawan atau pemilik  
+4. Jika login sebagai karyawan, sistem menampilkan menu kasir, stok, dan riwayat transaksi  
+5. Jika login sebagai pemilik, sistem menampilkan menu kasir, stok, riwayat transaksi, karyawan, produk, dan laporan  
+6. Pengguna dapat melakukan transaksi melalui menu kasir  
+7. Jika metode pembayaran tunai, transaksi dapat langsung disimpan  
+8. Jika metode pembayaran QRIS atau transfer, pengguna diminta mengunggah bukti pembayaran melalui kamera  
+9. Data transaksi akan masuk ke riwayat transaksi dan laporan penjualan  
+10. Data stok dapat diperbarui melalui menu stok  
+11. Pemilik dapat mengelola data karyawan dan produk  
+12. Pemilik dapat memantau omzet, keuntungan, dan aktivitas penjualan melalui menu laporan  
 
-Dari alur ini terlihat bahwa fitur-fitur dalam aplikasi saling terhubung dan membentuk sistem yang cukup lengkap.
+Dari alur ini terlihat bahwa seluruh fitur dalam aplikasi saling terhubung dan membentuk sistem usaha yang terintegrasi.
 
 ---
 
-# 🧠 Use Case Aplikasi
-
-## 👑 Owner
-Owner dapat melakukan:
-- login ke sistem,
-- melihat dashboard utama,
-- menambah produk,
-- mengedit produk,
-- menghapus produk,
-- mengatur stok,
-- melihat laporan penjualan,
-- melihat riwayat transaksi,
-- menambah karyawan,
-- mengedit karyawan,
-- menghapus karyawan,
-- serta logout dari sistem.
+# 🧠 Use Case 
 
 ## 👨‍💼 Karyawan
 Karyawan dapat melakukan:
 - login ke sistem,
-- melihat dashboard sesuai akses,
-- melakukan transaksi penjualan,
+- membuka menu kasir,
+- menginput nama pelanggan,
 - memilih metode pembayaran,
-- mengunggah bukti pembayaran,
-- melihat riwayat transaksi sesuai kebutuhan,
+- menambahkan menu ke pesanan,
+- mengelola jumlah item pesanan,
+- menyimpan transaksi,
+- mengambil foto bukti pembayaran untuk QRIS atau transfer,
+- membuka menu stok,
+- melihat semua stok,
+- melihat stok menipis,
+- melihat stok habis,
+- mencari produk,
+- memperbarui stok,
+- membuka riwayat transaksi,
+- mencari transaksi berdasarkan pelanggan, kasir, atau pembayaran,
+- memfilter transaksi berdasarkan waktu,
+- memfilter transaksi berdasarkan metode pembayaran,
+- serta logout dari sistem.
+
+## 👑 Pemilik / Owner
+Pemilik dapat melakukan:
+- login ke sistem,
+- menggunakan menu kasir,
+- menggunakan menu stok,
+- melihat riwayat transaksi,
+- melihat total omzet pada riwayat transaksi,
+- menambah akun karyawan,
+- mengubah akun karyawan,
+- menghapus akun karyawan,
+- menambah produk,
+- mengubah produk,
+- menghapus produk,
+- mengatur harga jual, harga modal, stok, dan gambar produk,
+- melihat laporan omzet,
+- melihat keuntungan bersih,
+- melihat produk terlaris,
+- melihat total barang keluar,
+- melihat rincian barang keluar per produk,
+- melihat grafik keuntungan bersih bulanan,
+- melihat seluruh transaksi,
 - serta logout dari sistem.
 
 ---
@@ -283,7 +413,7 @@ Karyawan dapat melakukan:
 
 > **Catatan:**  
 > Pada bagian ini, silakan masukkan screenshot aplikasi sesuai keterangan yang sudah disediakan.  
-> Penjelasan di bawah ini dibuat agar dokumentasi terlihat lebih rapi, informatif, dan siap digunakan sebagai laporan.
+> Penjelasan di bawah ini sudah disesuaikan dengan alur aplikasi yang kamu jelaskan, jadi nanti kamu tinggal menambahkan foto yang sesuai.
 
 ---
 
@@ -294,15 +424,20 @@ Karyawan dapat melakukan:
 
 <div align="center">
 
-📸 **Letakkan screenshot halaman login di sini**
+<table>
+  <tr>
+    <td align="center" width="35%">
+      <img src="https://github.com/user-attachments/assets/5b590885-9663-4e9e-8e08-5e01bf8fbda7" alt="WhatsApp Image 2026-04-16 at 16 12 39" width="220" />
+    </td>
+    <td width="65%" valign="top">
 
-<br><br>
-
-<b>Penjelasan:</b><br>
+### Login Page
 Halaman login merupakan halaman awal yang digunakan pengguna untuk masuk ke dalam sistem.  
-Pada halaman ini, pengguna diminta memasukkan email dan password sebelum dapat mengakses fitur aplikasi.
+Pada halaman ini, pengguna diminta mengisi email dan password. Setelah login berhasil, sistem akan menyesuaikan tampilan berdasarkan role pengguna, yaitu karyawan atau pemilik.
 
-Halaman ini memiliki peran penting karena berfungsi sebagai sistem autentikasi. Selain menjaga keamanan, proses login juga menentukan hak akses pengguna, apakah sebagai owner atau karyawan.
+   </td>
+  </tr>
+</table>
 
 </div>
 
@@ -311,21 +446,50 @@ Halaman ini memiliki peran penting karena berfungsi sebagai sistem autentikasi. 
 ---
 
 <details>
-<summary>🏠 2. Tampilan Dashboard Owner</summary>
+<summary>👨‍💼 2. Dashboard Karyawan</summary>
+
+<br>
+
+<table>
+  <tr>
+    <td align="center" width="35%">
+      <img src="https://github.com/user-attachments/assets/6e50dbd8-745a-4d1e-bb77-4c2c7ae6617a" alt="WhatsApp Image 2026-04-16 at 16 20 53" width="220" />
+    </td>
+    <td width="65%" valign="top">
+
+### Dashboard Karyawan
+Jika pengguna masuk sebagai karyawan, maka akan ditampilkan menu operasional yang terdiri dari **Kasir**, **Stok**, dan **Riwayat Transaksi**.  
+Tampilan ini dibuat lebih fokus pada kebutuhan operasional harian agar penggunaan aplikasi menjadi lebih efisien.
+
+   </td>
+  </tr>
+</table>
+</div>
+
+</details>
+
+---
+
+<details>
+<summary>👑 3. Dashboard Pemilik / Owner</summary>
 
 <br>
 
 <div align="center">
 
-📸 **Letakkan screenshot dashboard owner di sini**
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/2a6a1f0c-59be-4799-acfd-6712dfdef4fc" alt="WhatsApp Image 2026-04-16 at 16 12 39 (1)" width="230" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://github.com/user-attachments/assets/f3f2674d-e1ba-4e3b-9923-27a9c842b8ec" alt="WhatsApp Image 2026-04-16 at 16 12 40" width="230" />
+</div>
+
+
 
 <br><br>
 
-<b>Penjelasan:</b><br>
-Halaman dashboard owner berfungsi sebagai pusat kontrol utama aplikasi.  
-Pada halaman ini, owner dapat mengakses berbagai menu penting yang berkaitan dengan pengelolaan usaha, seperti produk, stok, laporan penjualan, riwayat transaksi, dan data karyawan.
-
-Tampilan dashboard ini dirancang agar owner dapat memantau aktivitas usaha dengan lebih praktis dalam satu halaman.
+<b>Dashboard Pemilik:</b><br>
+Jika pengguna masuk sebagai pemilik, maka akan muncul menu yang lebih lengkap, yaitu menu **Operasional**, **Manajemen**, dan **Laporan**.  
+Pada role ini, pemilik dapat mengakses kasir, stok, riwayat transaksi, manajemen karyawan, manajemen produk, dan laporan usaha.
 
 </div>
 
@@ -334,21 +498,24 @@ Tampilan dashboard ini dirancang agar owner dapat memantau aktivitas usaha denga
 ---
 
 <details>
-<summary>👨‍💼 3. Tampilan Dashboard Karyawan</summary>
+<summary>🧾 4. Halaman Kasir</summary>
 
 <br>
 
 <div align="center">
 
-📸 **Letakkan screenshot dashboard karyawan di sini**
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/1f0da350-4971-4e05-9490-1d9385cf89a9" alt="image 1" width="180" />
+  &nbsp;&nbsp;
+  <img src="https://github.com/user-attachments/assets/37a18a77-697e-4367-b517-e546ba492f64" alt="image 2" width="180" />
+  &nbsp;&nbsp;
+  <img src="https://github.com/user-attachments/assets/9b7c12e4-0d1d-4ecd-815e-5b2549dfdf0f" alt="image 3" width="180" />
+</div>
 
 <br><br>
-
-<b>Penjelasan:</b><br>
-Halaman dashboard karyawan merupakan tampilan utama yang digunakan oleh akun dengan role karyawan.  
-Fitur yang ditampilkan pada halaman ini disesuaikan dengan kebutuhan operasional harian agar penggunaan aplikasi menjadi lebih fokus dan efisien.
-
-Halaman ini juga menunjukkan bahwa aplikasi menerapkan pembagian hak akses berdasarkan peran pengguna.
+<b>Halaman Kasir:</b><br>
+Halaman kasir digunakan untuk melakukan input transaksi pelanggan.  
+Pada halaman ini, pengguna dapat menginput nama pelanggan, memilih metode pembayaran, menambahkan menu makanan ke pesanan, serta melihat ringkasan transaksi sebelum disimpan.
 
 </div>
 
@@ -357,21 +524,25 @@ Halaman ini juga menunjukkan bahwa aplikasi menerapkan pembagian hak akses berda
 ---
 
 <details>
-<summary>🛍️ 4. Halaman Daftar Produk</summary>
+<summary>💵 5. Transaksi Tunai</summary>
 
 <br>
 
 <div align="center">
 
-📸 **Letakkan screenshot halaman daftar produk di sini**
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/6424c5d7-ac4b-4ee8-91c2-35725f1f0e5c" alt="image 1" width="220" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://github.com/user-attachments/assets/b369089f-a4cb-450b-b0e7-dd4a0618e3c7" alt="image 2" width="220" />
+</div>
+
+
 
 <br><br>
 
 <b>Penjelasan:</b><br>
-Halaman daftar produk menampilkan seluruh data produk yang telah tersimpan di dalam sistem.  
-Informasi yang biasanya ditampilkan mencakup nama produk, harga, stok, dan gambar produk.
-
-Halaman ini sangat penting karena seluruh transaksi penjualan akan menggunakan data dari produk yang tersedia.
+Jika metode pembayaran yang dipilih adalah tunai, maka setelah nama pelanggan dan metode pembayaran diisi, pengguna dapat langsung menambahkan menu ke dalam ringkasan pemesanan.  
+Pada ringkasan tersebut, item dapat ditambah, dikurangi, atau dihapus. Setelah transaksi disimpan, sistem akan menampilkan notifikasi bahwa transaksi telah masuk ke riwayat transaksi dan laporan penjualan.
 
 </div>
 
@@ -380,21 +551,26 @@ Halaman ini sangat penting karena seluruh transaksi penjualan akan menggunakan d
 ---
 
 <details>
-<summary>➕ 5. Form Tambah Produk</summary>
+<summary>📷 6. Transaksi QRIS</summary>
 
 <br>
 
 <div align="center">
 
-📸 **Letakkan screenshot form tambah produk di sini**
-
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/cfc15d26-ad1d-4d47-a721-ea5afe7b88e8" alt="image 1" width="160" />
+  &nbsp;
+  <img src="https://github.com/user-attachments/assets/7c53a68d-4db2-473c-acc7-c712bacfa6cf" alt="image 2" width="160" />
+  &nbsp;
+  <img src="https://github.com/user-attachments/assets/63cecc69-01c8-4db5-b96f-39d91991fb37" alt="image 3" width="160" />
+  &nbsp;
+  <img src="https://github.com/user-attachments/assets/3f5eca5c-ad1c-4844-a814-6a0143fe44ea" alt="image 4" width="160" />
+</div>
 <br><br>
 
 <b>Penjelasan:</b><br>
-Form tambah produk digunakan untuk memasukkan data produk baru ke dalam sistem.  
-Pengguna dapat mengisi informasi seperti nama produk, harga modal, harga jual, stok, dan gambar produk.
-
-Fitur ini memudahkan proses penambahan barang atau menu baru tanpa perlu melakukan pencatatan manual.
+Jika metode pembayaran yang dipilih adalah QRIS, maka setelah data pesanan selesai diinput, pengguna akan diarahkan ke kamera untuk mengambil foto bukti pembayaran.  
+Setelah bukti pembayaran berhasil diambil, sistem akan menampilkan notifikasi bahwa transaksi telah tersimpan pada riwayat transaksi dan laporan penjualan.
 
 </div>
 
@@ -403,21 +579,27 @@ Fitur ini memudahkan proses penambahan barang atau menu baru tanpa perlu melakuk
 ---
 
 <details>
-<summary>✏️ 6. Form Edit Produk</summary>
+<summary>📷 7. Transaksi Transfer</summary>
 
 <br>
 
 <div align="center">
 
-📸 **Letakkan screenshot form edit produk di sini**
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/63403ff6-56b3-44c0-9a93-c724f7fa8048" alt="image 1" width="160" />
+  &nbsp;
+  <img src="https://github.com/user-attachments/assets/84b74e67-e5bd-4ebd-95f8-78ca9a680593" alt="image 2" width="160" />
+  &nbsp;
+  <img src="https://github.com/user-attachments/assets/5a8e9358-67ee-4446-a71e-9474647e7ba3" alt="image 3" width="160" />
+  &nbsp;
+  <img src="https://github.com/user-attachments/assets/1c655b65-6af8-440b-a86a-9cbe1cec7f62" alt="image 4" width="160" />
+</div>
 
 <br><br>
 
 <b>Penjelasan:</b><br>
-Halaman edit produk digunakan untuk memperbarui data produk yang sudah ada.  
-Perubahan dapat berupa nama produk, harga, stok, maupun gambar.
-
-Fitur ini penting karena data produk dalam usaha dapat berubah sewaktu-waktu dan perlu diperbarui dengan cepat.
+Jika metode pembayaran yang dipilih adalah transfer, maka alurnya serupa dengan QRIS.  
+Pengguna akan diminta mengambil foto bukti pembayaran sebagai dokumentasi, kemudian transaksi akan disimpan ke dalam sistem.
 
 </div>
 
@@ -426,21 +608,19 @@ Fitur ini penting karena data produk dalam usaha dapat berubah sewaktu-waktu dan
 ---
 
 <details>
-<summary>🗑️ 7. Hapus Produk</summary>
+<summary>🧾 8. Ringkasan Pesanan</summary>
 
 <br>
 
 <div align="center">
 
-📸 **Letakkan screenshot dialog atau proses hapus produk di sini**
+📸 **Letakkan screenshot ringkasan pesanan / tampilan struk di sini**
 
 <br><br>
 
 <b>Penjelasan:</b><br>
-Bagian ini menunjukkan proses penghapusan produk dari sistem.  
-Biasanya tersedia dialog konfirmasi agar pengguna tidak menghapus data secara tidak sengaja.
-
-Fitur hapus produk membantu pengelolaan data menjadi lebih fleksibel dan teratur.
+Bagian ini menampilkan ringkasan pemesanan yang berisi nama pelanggan, metode pembayaran, daftar menu yang dipesan, jumlah item, serta total pesanan.  
+Tampilannya menyerupai struk digital, sehingga transaksi menjadi lebih mudah dibaca dan dicek kembali sebelum disimpan.
 
 </div>
 
@@ -449,7 +629,7 @@ Fitur hapus produk membantu pengelolaan data menjadi lebih fleksibel dan teratur
 ---
 
 <details>
-<summary>📦 8. Halaman Manajemen Stok</summary>
+<summary>📦 9. Halaman Stok</summary>
 
 <br>
 
@@ -460,10 +640,8 @@ Fitur hapus produk membantu pengelolaan data menjadi lebih fleksibel dan teratur
 <br><br>
 
 <b>Penjelasan:</b><br>
-Halaman stok digunakan untuk memantau jumlah barang yang tersedia.  
-Melalui halaman ini, pengguna dapat melihat kondisi stok secara lebih jelas, baik stok aman, menipis, maupun habis.
-
-Fitur ini sangat membantu agar proses penjualan tidak terganggu akibat ketidaksesuaian data stok.
+Halaman stok digunakan untuk memantau persediaan produk.  
+Pada halaman ini, pengguna dapat melihat semua stok, stok menipis, dan stok habis, sehingga kondisi barang dapat dipantau dengan lebih jelas.
 
 </div>
 
@@ -472,7 +650,28 @@ Fitur ini sangat membantu agar proses penjualan tidak terganggu akibat ketidakse
 ---
 
 <details>
-<summary>🔄 9. Update Stok Produk</summary>
+<summary>🔍 10. Fitur Pencarian Produk pada Stok</summary>
+
+<br>
+
+<div align="center">
+
+📸 **Letakkan screenshot fitur pencarian produk di halaman stok di sini**
+
+<br><br>
+
+<b>Penjelasan:</b><br>
+Pada menu stok, pengguna juga dapat mencari nama produk tertentu melalui fitur pencarian.  
+Fitur ini memudahkan pengguna ketika ingin menemukan produk tertentu tanpa perlu mencari secara manual dari seluruh daftar barang.
+
+</div>
+
+</details>
+
+---
+
+<details>
+<summary>🔄 11. Update Stok Produk</summary>
 
 <br>
 
@@ -483,10 +682,8 @@ Fitur ini sangat membantu agar proses penjualan tidak terganggu akibat ketidakse
 <br><br>
 
 <b>Penjelasan:</b><br>
-Bagian ini menunjukkan proses pembaruan jumlah stok barang.  
-Fitur ini biasanya digunakan saat ada barang masuk, koreksi data, atau penyesuaian stok setelah pengecekan.
-
-Dengan fitur ini, data stok di aplikasi dapat tetap sesuai dengan kondisi barang sebenarnya.
+Setiap produk pada halaman stok dapat diperbarui jumlah stoknya.  
+Pengguna hanya perlu memasukkan angka stok terbaru, lalu sistem akan menyimpan perubahan tersebut.
 
 </div>
 
@@ -495,21 +692,19 @@ Dengan fitur ini, data stok di aplikasi dapat tetap sesuai dengan kondisi barang
 ---
 
 <details>
-<summary>🧾 10. Halaman Kasir / Transaksi</summary>
+<summary>🕘 12. Riwayat Transaksi Karyawan</summary>
 
 <br>
 
 <div align="center">
 
-📸 **Letakkan screenshot halaman kasir di sini**
+📸 **Letakkan screenshot riwayat transaksi pada akun karyawan di sini**
 
 <br><br>
 
 <b>Penjelasan:</b><br>
-Halaman kasir merupakan halaman utama untuk mencatat transaksi penjualan.  
-Pada bagian ini, pengguna dapat memilih produk, menentukan jumlah pembelian, melihat daftar pesanan, dan menghitung total transaksi.
-
-Halaman ini menjadi inti dari proses operasional penjualan dalam aplikasi.
+Pada akun karyawan, halaman riwayat transaksi menampilkan daftar transaksi yang sudah tersimpan.  
+Tampilan ini digunakan untuk melihat data transaksi berdasarkan pencarian pelanggan, kasir, atau metode pembayaran.
 
 </div>
 
@@ -518,19 +713,19 @@ Halaman ini menjadi inti dari proses operasional penjualan dalam aplikasi.
 ---
 
 <details>
-<summary>💳 11. Metode Pembayaran</summary>
+<summary>🔎 13. Filter Riwayat Transaksi</summary>
 
 <br>
 
 <div align="center">
 
-📸 **Letakkan screenshot pilihan metode pembayaran di sini**
+📸 **Letakkan screenshot filter waktu dan metode pembayaran di sini**
 
 <br><br>
 
 <b>Penjelasan:</b><br>
-Bagian ini menampilkan pilihan metode pembayaran yang tersedia, seperti tunai, transfer, dan QRIS.  
-Fitur ini memberikan fleksibilitas dalam proses pembayaran agar dapat menyesuaikan dengan kebutuhan pelanggan.
+Riwayat transaksi dapat difilter berdasarkan periode waktu seperti semua, hari ini, minggu ini, dan bulan ini.  
+Selain itu, transaksi juga dapat difilter berdasarkan metode pembayaran seperti tunai, QRIS, transfer, atau semua metode.
 
 </div>
 
@@ -539,21 +734,19 @@ Fitur ini memberikan fleksibilitas dalam proses pembayaran agar dapat menyesuaik
 ---
 
 <details>
-<summary>📷 12. Bukti Pembayaran melalui Kamera</summary>
+<summary>🧾 14. Tampilan Detail Riwayat seperti Struk</summary>
 
 <br>
 
 <div align="center">
 
-📸 **Letakkan screenshot halaman pengambilan bukti pembayaran di sini**
+📸 **Letakkan screenshot detail transaksi / struk digital di sini**
 
 <br><br>
 
 <b>Penjelasan:</b><br>
-Halaman ini digunakan untuk mengambil bukti pembayaran melalui kamera perangkat.  
-Fitur ini sangat berguna terutama untuk transaksi non-tunai, karena bukti pembayaran dapat disimpan sebagai dokumentasi tambahan.
-
-Dengan demikian, transaksi yang tercatat menjadi lebih lengkap dan dapat diverifikasi.
+Setiap data transaksi ditampilkan dengan format yang menyerupai struk digital.  
+Informasi yang dapat dilihat antara lain nama kasir, waktu transaksi, total pembayaran, metode pembayaran, dan bukti pembayaran berupa foto.
 
 </div>
 
@@ -562,21 +755,19 @@ Dengan demikian, transaksi yang tercatat menjadi lebih lengkap dan dapat diverif
 ---
 
 <details>
-<summary>🕘 13. Riwayat Transaksi</summary>
+<summary>💰 15. Riwayat Transaksi Pemilik dengan Total Omzet</summary>
 
 <br>
 
 <div align="center">
 
-📸 **Letakkan screenshot halaman riwayat transaksi di sini**
+📸 **Letakkan screenshot riwayat transaksi pada akun pemilik di sini**
 
 <br><br>
 
 <b>Penjelasan:</b><br>
-Halaman riwayat transaksi menampilkan daftar transaksi yang telah dilakukan sebelumnya.  
-Pengguna dapat melihat kembali data penjualan yang sudah tersimpan sebagai arsip digital.
-
-Fitur ini memudahkan proses pengecekan ulang ketika dibutuhkan.
+Pada akun pemilik, tampilan riwayat transaksi secara umum sama seperti pada akun karyawan.  
+Namun, pada halaman ini pemilik juga dapat melihat **total omzet**, sedangkan informasi tersebut tidak ditampilkan pada akun karyawan.
 
 </div>
 
@@ -585,21 +776,19 @@ Fitur ini memudahkan proses pengecekan ulang ketika dibutuhkan.
 ---
 
 <details>
-<summary>🔎 14. Filter Riwayat Transaksi</summary>
+<summary>👥 16. Halaman Manajemen Karyawan</summary>
 
 <br>
 
 <div align="center">
 
-📸 **Letakkan screenshot filter transaksi di sini**
+📸 **Letakkan screenshot halaman manajemen karyawan di sini**
 
 <br><br>
 
 <b>Penjelasan:</b><br>
-Bagian ini menunjukkan fitur filter pada riwayat transaksi.  
-Pengguna dapat menyaring data berdasarkan periode waktu atau metode pembayaran tertentu.
-
-Fitur ini sangat bermanfaat untuk mempercepat pencarian data transaksi yang spesifik.
+Halaman ini digunakan oleh pemilik untuk mengelola akun karyawan.  
+Pemilik dapat menambahkan, mengubah, dan menghapus akun karyawan sesuai kebutuhan operasional usaha.
 
 </div>
 
@@ -608,75 +797,7 @@ Fitur ini sangat bermanfaat untuk mempercepat pencarian data transaksi yang spes
 ---
 
 <details>
-<summary>📊 15. Laporan Penjualan</summary>
-
-<br>
-
-<div align="center">
-
-📸 **Letakkan screenshot halaman laporan penjualan di sini**
-
-<br><br>
-
-<b>Penjelasan:</b><br>
-Halaman laporan penjualan menampilkan ringkasan hasil penjualan berdasarkan data transaksi yang telah tersimpan.  
-Informasi yang tersedia biasanya meliputi omzet, profit, jumlah transaksi, serta data lain yang relevan untuk evaluasi usaha.
-
-Halaman ini sangat membantu owner dalam melihat performa usaha secara lebih objektif.
-
-</div>
-
-</details>
-
----
-
-<details>
-<summary>🏆 16. Produk Terlaris / Grafik Penjualan</summary>
-
-<br>
-
-<div align="center">
-
-📸 **Letakkan screenshot grafik atau produk terlaris di sini**
-
-<br><br>
-
-<b>Penjelasan:</b><br>
-Bagian ini menampilkan visualisasi data penjualan, misalnya produk yang paling sering terjual atau grafik aktivitas penjualan.
-
-Dengan bantuan visualisasi, data penjualan menjadi lebih mudah dipahami dan lebih menarik untuk dianalisis.
-
-</div>
-
-</details>
-
----
-
-<details>
-<summary>👥 17. Halaman Manajemen Karyawan</summary>
-
-<br>
-
-<div align="center">
-
-📸 **Letakkan screenshot halaman data karyawan di sini**
-
-<br><br>
-
-<b>Penjelasan:</b><br>
-Halaman ini digunakan untuk melihat dan mengelola data karyawan yang terdaftar dalam sistem.  
-Owner dapat menambahkan akun baru, mengedit data, maupun menghapus akun yang tidak lagi digunakan.
-
-Fitur ini mendukung pengelolaan pengguna secara lebih rapi dan terkontrol.
-
-</div>
-
-</details>
-
----
-
-<details>
-<summary>➕ 18. Form Tambah Karyawan</summary>
+<summary>➕ 17. Form Tambah Karyawan</summary>
 
 <br>
 
@@ -687,10 +808,8 @@ Fitur ini mendukung pengelolaan pengguna secara lebih rapi dan terkontrol.
 <br><br>
 
 <b>Penjelasan:</b><br>
-Form tambah karyawan digunakan owner untuk membuat akun baru bagi karyawan yang akan menggunakan aplikasi.  
-Data yang dimasukkan biasanya berupa nama, email, dan informasi akun lainnya.
-
-Fitur ini memudahkan proses penambahan pengguna baru secara langsung dari sistem.
+Saat menambahkan akun karyawan baru, pemilik diminta mengisi nama karyawan, email, dan password.  
+Form ini digunakan untuk membuat akun baru yang nantinya dapat digunakan untuk login ke dalam sistem.
 
 </div>
 
@@ -699,19 +818,124 @@ Fitur ini memudahkan proses penambahan pengguna baru secara langsung dari sistem
 ---
 
 <details>
-<summary>✏️ 19. Edit / Hapus Karyawan</summary>
+<summary>🛍️ 18. Halaman Manajemen Produk</summary>
 
 <br>
 
 <div align="center">
 
-📸 **Letakkan screenshot proses edit atau hapus karyawan di sini**
+📸 **Letakkan screenshot halaman produk di sini**
 
 <br><br>
 
 <b>Penjelasan:</b><br>
-Bagian ini menunjukkan proses pembaruan atau penghapusan data karyawan.  
-Dengan fitur ini, owner dapat menjaga agar data pengguna tetap valid dan sesuai dengan kondisi yang sebenarnya.
+Halaman produk digunakan oleh pemilik untuk mengatur data produk yang dijual.  
+Pada halaman ini, pemilik dapat melihat daftar menu, harga, stok, serta gambar produk yang tersedia dalam sistem.
+
+</div>
+
+</details>
+
+---
+
+<details>
+<summary>➕ 19. Form Tambah Produk</summary>
+
+<br>
+
+<div align="center">
+
+📸 **Letakkan screenshot form tambah produk di sini**
+
+<br><br>
+
+<b>Penjelasan:</b><br>
+Saat menambahkan produk baru, pemilik perlu mengisi gambar produk, nama produk, harga jual, harga modal, dan stok.  
+Form ini digunakan untuk menambahkan menu baru agar dapat langsung digunakan pada transaksi penjualan.
+
+</div>
+
+</details>
+
+---
+
+<details>
+<summary>✏️ 20. Edit / Hapus Produk</summary>
+
+<br>
+
+<div align="center">
+
+📸 **Letakkan screenshot edit produk atau hapus produk di sini**
+
+<br><br>
+
+<b>Penjelasan:</b><br>
+Pemilik dapat memperbarui data produk yang sudah ada maupun menghapus produk yang tidak lagi dijual.  
+Fitur ini membuat data produk tetap rapi, relevan, dan sesuai dengan kondisi usaha saat ini.
+
+</div>
+
+</details>
+
+---
+
+<details>
+<summary>📊 21. Halaman Laporan</summary>
+
+<br>
+
+<div align="center">
+
+📸 **Letakkan screenshot halaman laporan di sini**
+
+<br><br>
+
+<b>Penjelasan:</b><br>
+Halaman laporan digunakan oleh pemilik untuk memantau performa usaha.  
+Pada halaman ini, pemilik dapat melihat omzet, keuntungan bersih, total barang keluar, produk terlaris, aktivitas, dan data transaksi secara menyeluruh.
+
+</div>
+
+</details>
+
+---
+
+<details>
+<summary>🏆 22. Produk Terlaris dan Rincian Barang Keluar</summary>
+
+<br>
+
+<div align="center">
+
+📸 **Letakkan screenshot produk terlaris dan rincian barang keluar di sini**
+
+<br><br>
+
+<b>Penjelasan:</b><br>
+Bagian ini menampilkan produk yang paling banyak terjual beserta jumlah penjualannya.  
+Selain itu, ditampilkan juga rincian barang keluar per produk agar pemilik dapat melihat performa masing-masing produk secara lebih detail.
+
+</div>
+
+</details>
+
+---
+
+<details>
+<summary>📈 23. Grafik Keuntungan Bersih Bulanan</summary>
+
+<br>
+
+<div align="center">
+
+📸 **Letakkan screenshot grafik keuntungan bersih bulanan di sini**
+
+<br><br>
+
+<b>Penjelasan:</b><br>
+Grafik ini menampilkan perkembangan keuntungan bersih bulanan berdasarkan transaksi yang tersimpan di dalam sistem.  
+Dengan visualisasi ini, pemilik dapat membaca perkembangan usaha dengan lebih mudah dan lebih cepat.
 
 </div>
 
@@ -726,7 +950,7 @@ Dengan fitur ini, owner dapat menjaga agar data pengguna tetap valid dan sesuai 
 
 <br>
 
-Berikut adalah widget Flutter yang digunakan atau sangat relevan berdasarkan fitur dan tampilan aplikasi:
+Berikut adalah widget Flutter yang digunakan atau sangat relevan berdasarkan alur aplikasi:
 
 ## 📌 Widget Dasar
 - `MaterialApp`
@@ -747,7 +971,7 @@ Widget dasar ini digunakan sebagai kerangka utama aplikasi.
 - `Expanded`
 - `Wrap`
 
-Widget layout digunakan untuk menyusun elemen antarmuka agar tampilan lebih rapi dan proporsional.
+Widget layout digunakan untuk menyusun tampilan agar rapi, proporsional, dan mudah dipahami.
 
 ---
 
@@ -759,7 +983,7 @@ Widget layout digunakan untuk menyusun elemen antarmuka agar tampilan lebih rapi
 - `Chip`
 - `CircleAvatar`
 
-Widget ini berfungsi untuk menampilkan informasi penting, ikon menu, label status, dan elemen visual lainnya.
+Widget ini digunakan untuk menampilkan judul, label, status stok, informasi menu, dan elemen visual lainnya.
 
 ---
 
@@ -772,7 +996,7 @@ Widget ini berfungsi untuk menampilkan informasi penting, ikon menu, label statu
 - `OutlinedButton`
 - `TextEditingController`
 
-Widget form digunakan untuk login, tambah produk, edit produk, tambah karyawan, dan input transaksi.
+Widget form digunakan pada login, input transaksi, update stok, tambah karyawan, dan tambah produk.
 
 ---
 
@@ -781,7 +1005,7 @@ Widget form digunakan untuk login, tambah produk, edit produk, tambah karyawan, 
 - `ListView.builder`
 - `SingleChildScrollView`
 
-Widget ini digunakan untuk menampilkan daftar produk, riwayat transaksi, data karyawan, dan data stok.
+Widget ini digunakan untuk menampilkan daftar produk, ringkasan pesanan, stok, riwayat transaksi, dan laporan data.
 
 ---
 
@@ -792,7 +1016,7 @@ Widget ini digunakan untuk menampilkan daftar produk, riwayat transaksi, data ka
 - `FloatingActionButton`
 - `PopupMenuButton`
 
-Widget interaksi memungkinkan pengguna melakukan aksi seperti memilih menu, menekan tombol, mengedit data, dan menghapus data.
+Widget interaksi memungkinkan pengguna memilih menu, menambah item, mengurangi item, menghapus data, dan menjalankan aksi tertentu.
 
 ---
 
@@ -804,7 +1028,7 @@ Widget interaksi memungkinkan pengguna melakukan aksi seperti memilih menu, mene
 - `StatelessWidget`
 - `setState()`
 
-Widget dan konsep ini digunakan untuk perpindahan halaman serta pengelolaan perubahan data pada tampilan.
+Widget dan konsep ini digunakan untuk perpindahan halaman serta pembaruan tampilan secara dinamis.
 
 ---
 
@@ -813,7 +1037,7 @@ Widget dan konsep ini digunakan untuk perpindahan halaman serta pengelolaan peru
 - `AlertDialog`
 - `CircularProgressIndicator`
 
-Widget ini digunakan untuk menampilkan pesan berhasil, gagal, loading, maupun konfirmasi tindakan.
+Widget ini digunakan untuk menampilkan notifikasi transaksi berhasil, konfirmasi tindakan, dan proses loading.
 
 ---
 
@@ -823,7 +1047,7 @@ Widget ini digunakan untuk menampilkan pesan berhasil, gagal, loading, maupun ko
 - `Image.file`
 - `CameraPreview`
 
-Widget media digunakan untuk menampilkan gambar produk serta mendukung pengambilan bukti pembayaran melalui kamera.
+Widget media digunakan untuk gambar produk dan pengambilan bukti pembayaran melalui kamera.
 
 ---
 
@@ -831,7 +1055,7 @@ Widget media digunakan untuk menampilkan gambar produk serta mendukung pengambil
 - `LineChart`
 - `BarChart`
 
-Widget ini digunakan untuk membantu menampilkan laporan penjualan dalam bentuk grafik agar lebih mudah dipahami.
+Widget ini digunakan pada halaman laporan untuk menampilkan grafik keuntungan dan data penjualan.
 
 </details>
 
@@ -844,32 +1068,33 @@ lib/
 │
 ├── pages/
 │   ├── login_page.dart
-│   ├── owner_home_page.dart
 │   ├── employee_home_page.dart
+│   ├── owner_home_page.dart
 │   ├── cashier_page.dart
-│   ├── product_management_page.dart
 │   ├── stock_management_page.dart
-│   ├── sales_report_page.dart
 │   ├── transaction_history_page.dart
-│   ├── user_management_page.dart
-│   ├── add_employee_page.dart
+│   ├── employee_management_page.dart
+│   ├── product_management_page.dart
+│   ├── report_page.dart
 │   └── camera_capture_page.dart
 │
 ├── models/
-│   ├── app_user_model.dart
 │   ├── product_model.dart
+│   ├── transaction_model.dart
+│   ├── user_model.dart
 │   └── order_item_model.dart
 │
 └── services/
-    ├── user_service.dart
-    ├── employee_service.dart
+    ├── auth_service.dart
     ├── product_service.dart
-    ├── order_service.dart
-    ├── payment_proof_service.dart
+    ├── stock_service.dart
+    ├── transaction_service.dart
+    ├── employee_service.dart
     └── report_service.dart
 ```
 
-Struktur ini menunjukkan bahwa aplikasi telah dibangun dengan pembagian komponen yang cukup rapi, sehingga memudahkan pengembangan dan pemeliharaan sistem.
+> **Catatan:**  
+> Struktur ini merupakan gambaran logis dari fitur aplikasi. Jika struktur project asli kalian berbeda, bagian ini bisa disesuaikan lagi dengan folder yang sebenarnya.
 
 ---
 
@@ -879,13 +1104,13 @@ Aplikasi ini dikembangkan menggunakan beberapa teknologi berikut:
 
 - **Flutter** → framework utama untuk membangun aplikasi mobile  
 - **Dart** → bahasa pemrograman utama  
-- **Supabase** → backend, autentikasi, dan database  
+- **Supabase** → database dan layanan backend  
 - **Camera** → untuk pengambilan bukti pembayaran  
 - **fl_chart** → untuk visualisasi laporan penjualan  
-- **Shared Preferences** → untuk menyimpan sesi login  
+- **Shared Preferences** → untuk penyimpanan sesi login  
 - **HTTP / API Service** → untuk komunikasi data  
 
-Kombinasi teknologi ini membuat aplikasi tidak hanya memiliki tampilan yang baik, tetapi juga mendukung proses pengolahan data secara nyata.
+Kombinasi teknologi ini membuat aplikasi tidak hanya memiliki tampilan yang baik, tetapi juga mendukung proses pengolahan data usaha secara nyata.
 
 ---
 
@@ -903,7 +1128,7 @@ dependencies:
 ```
 
 > **Catatan:**  
-> Bagian dependency ini bisa kamu sesuaikan lagi dengan `pubspec.yaml` project asli kalian.
+> Bagian dependency ini dapat disesuaikan lagi dengan isi `pubspec.yaml` project asli kalian.
 
 ---
 
@@ -914,18 +1139,24 @@ dependencies:
 
 <br>
 
+## Jika Login sebagai Karyawan
 1. Buka aplikasi  
-2. Login menggunakan akun yang tersedia  
-3. Masuk ke dashboard sesuai role pengguna  
-4. Jika sebagai owner, kelola produk, stok, laporan, dan data karyawan  
-5. Jika ingin melakukan transaksi, buka halaman kasir  
-6. Pilih produk yang dibeli pelanggan  
-7. Tentukan jumlah pembelian  
-8. Pilih metode pembayaran  
-9. Jika pembayaran non-tunai, ambil bukti pembayaran melalui kamera  
-10. Simpan transaksi  
-11. Cek riwayat transaksi untuk melihat data yang sudah tersimpan  
-12. Buka laporan penjualan untuk memantau perkembangan usaha  
+2. Login menggunakan akun karyawan  
+3. Pilih menu **Kasir**, **Stok**, atau **Riwayat Transaksi**  
+4. Jika membuka Kasir, input nama pelanggan  
+5. Pilih metode pembayaran  
+6. Tambahkan menu ke daftar pesanan  
+7. Atur jumlah item sesuai kebutuhan  
+8. Jika pembayaran tunai, simpan transaksi  
+9. Jika pembayaran QRIS atau transfer, ambil foto bukti pembayaran  
+10. Cek riwayat transaksi yang sudah tersimpan  
+
+## Jika Login sebagai Pemilik
+1. Buka aplikasi  
+2. Login menggunakan akun pemilik  
+3. Gunakan menu **Kasir**, **Stok**, **Riwayat Transaksi**, **Karyawan**, **Produk**, atau **Laporan**  
+4. Kelola data sesuai kebutuhan usaha  
+5. Cek laporan untuk memantau omzet, keuntungan, dan aktivitas penjualan  
 
 </details>
 
@@ -935,30 +1166,31 @@ dependencies:
 
 Beberapa kelebihan dari aplikasi **Mama Piya Kasir** antara lain:
 
-- memiliki fitur yang cukup lengkap untuk kebutuhan usaha,
-- mendukung role owner dan karyawan,
-- mempermudah pengelolaan produk dan stok,
-- mendukung transaksi digital dengan beberapa metode pembayaran,
+- memiliki pembagian role yang jelas antara karyawan dan pemilik,
+- mendukung transaksi tunai maupun non-tunai,
 - menyediakan bukti pembayaran melalui kamera,
-- memiliki riwayat transaksi yang tersimpan rapi,
-- dan menyediakan laporan penjualan untuk evaluasi usaha.
+- memiliki ringkasan transaksi yang rapi seperti struk digital,
+- mendukung pencarian dan filter riwayat transaksi,
+- mempermudah pengelolaan stok,
+- mendukung manajemen produk dan manajemen karyawan,
+- serta menyediakan laporan usaha yang lengkap dan informatif.
 
 ---
 
 # 📌 Kesimpulan
 
-Melalui project **Mama Piya Kasir**, kami mempelajari bahwa aplikasi mobile berbasis Flutter dapat digunakan untuk membangun sistem usaha yang tidak hanya menarik dari sisi tampilan, tetapi juga bermanfaat secara nyata dalam operasional sehari-hari.
+Melalui project **Mama Piya Kasir**, kami mempelajari bahwa aplikasi mobile berbasis Flutter dapat digunakan untuk membangun sistem usaha yang cukup lengkap, tidak hanya dari sisi tampilan, tetapi juga dari sisi proses bisnis yang nyata.
 
 Project ini memberikan pengalaman dalam:
-- membangun sistem login,
-- menerapkan pembagian hak akses pengguna,
-- mengelola data produk dan stok,
-- mencatat transaksi penjualan,
-- mengelola bukti pembayaran,
-- menampilkan riwayat transaksi,
-- serta menyusun laporan penjualan secara digital.
+- membangun sistem login berbasis role,
+- membuat alur transaksi dengan beberapa metode pembayaran,
+- menyimpan bukti pembayaran menggunakan kamera,
+- mengelola stok dan produk,
+- mengelola akun karyawan,
+- menyusun riwayat transaksi yang dapat dicari dan difilter,
+- serta menampilkan laporan usaha dalam bentuk data dan grafik.
 
-Secara keseluruhan, aplikasi ini menjadi bentuk penerapan pembelajaran Flutter yang cukup lengkap karena menggabungkan tampilan antarmuka, manajemen data, interaksi pengguna, dan logika sistem dalam satu project yang terintegrasi.
+Secara keseluruhan, aplikasi ini menjadi bentuk penerapan pembelajaran Flutter yang terintegrasi, karena menggabungkan antarmuka, manajemen data, alur transaksi, dan fitur laporan ke dalam satu sistem yang saling terhubung.
 
 ---
 
@@ -967,9 +1199,9 @@ Secara keseluruhan, aplikasi ini menjadi bentuk penerapan pembelajaran Flutter y
 ## ✨ Terima Kasih ✨
 
 Terima kasih telah membaca dokumentasi project kami.  
-Semoga aplikasi **Mama Piya Kasir** ini dapat menjadi project yang bermanfaat, menarik, dan dapat terus dikembangkan menjadi sistem yang lebih lengkap di masa depan.
+Semoga aplikasi **Mama Piya Kasir** ini dapat menjadi project yang bermanfaat, menarik, dan dapat terus dikembangkan menjadi sistem yang lebih lengkap di masa mendatang.
 
 **Mama Piya Kasir 💙**  
-**Mini Project Flutter Kelompok**
+**Proyek Akhir PAB Kelompok**
 
 </div>
