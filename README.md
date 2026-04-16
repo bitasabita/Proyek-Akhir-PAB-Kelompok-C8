@@ -788,13 +788,78 @@ Ketika pengguna memilih metode pembayaran tertentu, maka jumlah transaksi yang d
 
 <div align="center">
 
-📸 **Letakkan screenshot filter waktu dan metode pembayaran di sini**
+<table>
+  <tr>
+    <td align="center" width="35%">
+      <img src="https://github.com/user-attachments/assets/e7961f8c-aba9-428d-946f-3a688b8f0092" alt="Filter semua riwayat pembayaran" width="220" />
+    </td>
+    <td width="65%" valign="top">
+
+### Filter "Semua"
+Gambar ini menunjukkan filter untuk melihat **semua riwayat pembayaran** yang tersimpan di dalam sistem.  
+Dengan filter ini, pengguna dapat menampilkan seluruh data transaksi tanpa batasan waktu maupun metode pembayaran tertentu.
+
+   </td>
+  </tr>
+
+  <tr>
+    <td align="center" width="35%">
+      <img src="https://github.com/user-attachments/assets/47235370-2bc3-4f07-89dc-28e88c0d0064" alt="Filter hari ini" width="220" />
+    </td>
+    <td width="65%" valign="top">
+
+### Filter "Hari ini"
+Gambar ini menunjukkan filter untuk melihat transaksi **hari ini**.  
+Fitur ini membantu pengguna ketika ingin memantau transaksi yang terjadi pada hari yang sama secara lebih cepat dan spesifik.
+
+   </td>
+  </tr>
+
+  <tr>
+    <td align="center" width="35%">
+      <img src="https://github.com/user-attachments/assets/340d1c65-cac9-4bfb-b228-32e7350aa43b" alt="Filter minggu ini" width="220" />
+    </td>
+    <td width="65%" valign="top">
+
+### Filter "Minggu ini"
+Gambar ini menunjukkan filter untuk melihat transaksi pada **minggu ini**.  
+Dengan filter ini, pengguna dapat memantau seluruh transaksi yang terjadi dalam satu minggu terakhir.
+
+   </td>
+  </tr>
+
+  <tr>
+    <td align="center" width="35%">
+      <img src="https://github.com/user-attachments/assets/64178f2b-bb8a-470a-bd58-54e7c1907c9e" alt="Filter bulan ini" width="220" />
+    </td>
+    <td width="65%" valign="top">
+
+### Filter "Bulan ini"
+Gambar ini menunjukkan filter untuk melihat transaksi pada **bulan ini**.  
+Fitur ini memudahkan pengguna dalam melihat ringkasan transaksi bulanan tanpa perlu mencari data satu per satu.
+
+   </td>
+  </tr>
+
+  <tr>
+    <td align="center" width="35%">
+      <img src="https://github.com/user-attachments/assets/004472c8-c8f0-4845-9062-cdec001d9097" alt="Filter metode pembayaran" width="220" />
+    </td>
+    <td width="65%" valign="top">
+
+### Filter Metode Pembayaran
+Gambar ini menunjukkan filter berdasarkan **metode pembayaran**.  
+Melalui filter ini, pengguna dapat menampilkan transaksi sesuai metode pembayaran yang dipilih, seperti tunai, QRIS, atau transfer.
+
+   </td>
+  </tr>
+</table>
 
 <br><br>
 
 <b>Penjelasan:</b><br>
 Riwayat transaksi dapat difilter berdasarkan periode waktu seperti semua, hari ini, minggu ini, dan bulan ini.  
-Selain itu, transaksi juga dapat difilter berdasarkan metode pembayaran seperti tunai, QRIS, transfer, atau semua metode.
+Selain itu, transaksi juga dapat difilter berdasarkan metode pembayaran seperti tunai, QRIS, transfer.
 
 </div>
 
@@ -809,13 +874,20 @@ Selain itu, transaksi juga dapat difilter berdasarkan metode pembayaran seperti 
 
 <div align="center">
 
-📸 **Letakkan screenshot detail transaksi / struk digital di sini**
+<table>
+  <tr>
+    <td align="center" width="35%">
+      <img src="https://github.com/user-attachments/assets/eeeecb92-1c16-423f-8a1a-950731a1828c" alt="WhatsApp Image 2026-04-16 at 18 58 36" width="220" />
+    </td>
+    <td width="65%" valign="top">
 
-<br><br>
-
-<b>Penjelasan:</b><br>
+### Penjelasan
 Setiap data transaksi ditampilkan dengan format yang menyerupai struk digital.  
 Informasi yang dapat dilihat antara lain nama kasir, waktu transaksi, total pembayaran, metode pembayaran, dan bukti pembayaran berupa foto.
+
+   </td>
+  </tr>
+</table> 
 
 </div>
 
@@ -830,14 +902,20 @@ Informasi yang dapat dilihat antara lain nama kasir, waktu transaksi, total pemb
 
 <div align="center">
 
-📸 **Letakkan screenshot riwayat transaksi pada akun pemilik di sini**
+<table>
+  <tr>
+    <td align="center" width="35%">
+      <img src="https://github.com/user-attachments/assets/bfa4ddfd-d829-41d4-ba00-ae39defb8cec" alt="WhatsApp Image 2026-04-16 at 19 02 03" width="220" />
+    </td>
+    <td width="65%" valign="top">
 
-<br><br>
-
-<b>Penjelasan:</b><br>
+### Tampilan Halaman Riwayat Transaksi Pada Akun Pemilik
 Pada akun pemilik, tampilan riwayat transaksi secara umum sama seperti pada akun karyawan.  
 Namun, pada halaman ini pemilik juga dapat melihat **total omzet**, sedangkan informasi tersebut tidak ditampilkan pada akun karyawan.
 
+   </td>
+  </tr>
+</table>
 </div>
 
 </details>
@@ -851,13 +929,20 @@ Namun, pada halaman ini pemilik juga dapat melihat **total omzet**, sedangkan in
 
 <div align="center">
 
-📸 **Letakkan screenshot halaman manajemen karyawan di sini**
+<table>
+  <tr>
+    <td align="center" width="35%">
+      <img src="https://github.com/user-attachments/assets/2ce9faad-5f3b-46cd-9033-ecb8c8a6b752" alt="WhatsApp Image 2026-04-16 at 19 05 07" width="220" />
+    </td>
+    <td width="65%" valign="top">
 
-<br><br>
-
-<b>Penjelasan:</b><br>
+### Halaman Manajemen Karyawan
 Halaman ini digunakan oleh pemilik untuk mengelola akun karyawan.  
 Pemilik dapat menambahkan, mengubah, dan menghapus akun karyawan sesuai kebutuhan operasional usaha.
+
+   </td>
+  </tr>
+</table>
 
 </div>
 
@@ -872,13 +957,20 @@ Pemilik dapat menambahkan, mengubah, dan menghapus akun karyawan sesuai kebutuha
 
 <div align="center">
 
-📸 **Letakkan screenshot form tambah karyawan di sini**
+<table>
+  <tr>
+    <td align="center" width="35%">
+      <img src="https://github.com/user-attachments/assets/4b2f7296-9ce8-427d-8889-13849ba39037" alt="WhatsApp Image 2026-04-16 at 19 10 48" width="220" />
+    </td>
+    <td width="65%" valign="top">
 
-<br><br>
-
-<b>Penjelasan:</b><br>
+### Penjelasan
 Saat menambahkan akun karyawan baru, pemilik diminta mengisi nama karyawan, email, dan password.  
 Form ini digunakan untuk membuat akun baru yang nantinya dapat digunakan untuk login ke dalam sistem.
+
+   </td>
+  </tr>
+</table>
 
 </div>
 
