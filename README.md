@@ -411,9 +411,7 @@ Pemilik dapat melakukan:
 
 # 🖼️ Dokumentasi Tampilan Aplikasi
 
-> **Catatan:**  
-> Pada bagian ini, silakan masukkan screenshot aplikasi sesuai keterangan yang sudah disediakan.  
-> Penjelasan di bawah ini sudah disesuaikan dengan alur aplikasi yang kamu jelaskan, jadi nanti kamu tinggal menambahkan foto yang sesuai.
+
 
 ---
 
