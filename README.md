@@ -17,7 +17,7 @@
 
 ---
 
-# 👥 Identitas Kelompok
+# 👥 Identitas Kelompok C8
 
 <div align="center">
 
@@ -34,13 +34,16 @@
 
 # 📌 Deskripsi Aplikasi
 
-## 🌟 Gambaran Umum
+<details>
+<summary>🌟 Gambaran Umum</summary>
+
+<br>
 
 **Mama Piya Kasir** adalah aplikasi mobile berbasis Flutter yang dirancang untuk membantu kegiatan operasional usaha, khususnya dalam proses transaksi penjualan, pengelolaan stok, manajemen produk, pengelolaan akun karyawan, pencatatan riwayat transaksi, serta pemantauan laporan penjualan.
 
-Aplikasi ini dibuat sebagai solusi digital agar proses pencatatan usaha tidak lagi dilakukan secara manual. Dalam kegiatan usaha sehari-hari, sering muncul kendala seperti transaksi yang tidak tercatat rapi, stok yang sulit dipantau, data produk yang berubah-ubah, dan laporan penjualan yang kurang terorganisir. Oleh karena itu, aplikasi ini hadir untuk membantu pemilik usaha maupun karyawan agar dapat bekerja dengan lebih cepat, lebih terstruktur, dan lebih efisien.
+Aplikasi ini dibuat sebagai solusi digital agar proses pencatatan usaha tidak lagi dilakukan secara manual. Dalam kegiatan usaha sehari-hari, sering muncul kendala seperti transaksi yang tidak tercatat rapi, stok yang sulit dipantau, data produk yang berubah-ubah, dan laporan penjualan yang kurang terorganisir. Oleh karena itu, aplikasi ini hadir untuk membantu pemilik usaha maupun karyawan agar dapat bekerja dengan lebih cepat dan terstruktur.
 
-Secara fungsi, aplikasi ini tidak hanya berperan sebagai **aplikasi kasir**, tetapi juga sebagai **sistem manajemen usaha sederhana** yang terintegrasi. Seluruh proses, mulai dari input transaksi, penyimpanan bukti pembayaran, pembaruan stok, pencarian riwayat transaksi, hingga pemantauan omzet dan keuntungan, dapat dilakukan dalam satu aplikasi.
+Secara fungsi, aplikasi ini tidak hanya berperan sebagai **aplikasi kasir**, tetapi juga sebagai **sistem manajemen usaha sederhana**. Seluruh proses, mulai dari input transaksi, penyimpanan bukti pembayaran, pembaruan stok, pencarian riwayat transaksi, hingga pemantauan omzet dan keuntungan, dapat dilakukan dalam satu aplikasi.
 
 Aplikasi ini juga menerapkan **hak akses berdasarkan peran pengguna**, yaitu:
 
@@ -49,52 +52,62 @@ Aplikasi ini juga menerapkan **hak akses berdasarkan peran pengguna**, yaitu:
 
 Dengan pembagian hak akses tersebut, sistem menjadi lebih aman, lebih tertata, dan lebih sesuai dengan kebutuhan masing-masing pengguna.
 
----
+</details>
 
-# 🎯 Tujuan Pembuatan Aplikasi
+<details>
+<summary>🎯 Tujuan Pembuatan Aplikasi</summary>
+
+<br>
 
 Aplikasi ini dibuat dengan tujuan untuk:
 
-- mempermudah proses transaksi pelanggan,
-- membantu pencatatan usaha agar lebih rapi dan terdokumentasi,
-- mempermudah pengecekan dan pembaruan stok produk,
-- menyediakan riwayat transaksi yang mudah dicari,
-- membantu pemilik usaha dalam memantau omzet dan keuntungan,
-- serta meningkatkan efisiensi kerja owner maupun karyawan.
+- mempermudah proses transaksi pelanggan
+- membantu pencatatan usaha agar lebih rapi dan terdokumentasi
+- mempermudah pengecekan dan pembaruan stok produk
+- menyediakan riwayat transaksi yang mudah dicari
+- membantu pemilik usaha dalam memantau omzet dan keuntungan
+- meningkatkan efisiensi kerja owner maupun karyawan
 
 Dengan adanya aplikasi ini, proses pengelolaan usaha diharapkan menjadi lebih modern, sistematis, dan minim kesalahan.
+
+</details>
 
 ---
 
 # 🚀 Fitur Aplikasi
 
 <details>
-<summary>📦 Klik untuk melihat fitur aplikasi secara lengkap</summary>
+<summary>🔐 1. Login Berdasarkan Role Pengguna</summary>
 
 <br>
 
-# 1. 🔐 Login Berdasarkan Role Pengguna
-Aplikasi menyediakan halaman login yang digunakan sebagai pintu masuk utama ke dalam sistem.  
-Setelah pengguna berhasil login, sistem akan menyesuaikan tampilan menu sesuai dengan role akun yang digunakan, yaitu **karyawan** atau **pemilik**.
+Aplikasi menyediakan halaman login yang digunakan sebagai pintu masuk utama ke dalam sistem. Setelah pengguna berhasil login, sistem akan menyesuaikan tampilan menu sesuai dengan role akun yang digunakan, yaitu **karyawan** atau **pemilik**.
 
-Fitur ini penting karena menjadi dasar pembagian hak akses di dalam aplikasi.
+Akun karyawan tidak bisa dibuat sendiri. Akun akan dibuat oleh pemilik, lalu pemilik akan memberikan email dan password yang digunakan karyawan untuk login ke aplikasi.
 
----
+</details>
 
-# 2. 👨‍💼 Menu Karyawan
+<details>
+<summary>👨‍💼 2. Menu Karyawan</summary>
+
+<br>
+
 Jika pengguna masuk sebagai **karyawan**, maka akan muncul menu operasional berikut:
 
 - **Kasir**
 - **Stok**
 - **Riwayat Transaksi**
 
-Menu yang ditampilkan untuk karyawan dibuat fokus pada kebutuhan operasional harian, sehingga penggunaan aplikasi menjadi lebih sederhana dan efisien.
+Menu ini dibuat fokus pada kebutuhan operasional harian agar penggunaan aplikasi menjadi lebih sederhana dan efisien.
 
----
+</details>
 
-# 3. 🧾 Fitur Kasir untuk Karyawan
-Pada menu **Kasir**, karyawan dapat melakukan input transaksi pelanggan.  
-Alur transaksi yang tersedia meliputi:
+<details>
+<summary>🧾 3. Fitur Kasir untuk Karyawan</summary>
+
+<br>
+
+Pada menu **Kasir**, karyawan dapat melakukan input transaksi pelanggan, meliputi:
 
 - menginput **nama pelanggan**
 - memilih **metode pembayaran**
@@ -107,11 +120,15 @@ Alur transaksi yang tersedia meliputi:
 - melihat **total pesanan**
 - menyimpan transaksi
 
-Ringkasan transaksi ditampilkan seperti struk sederhana, sehingga data pesanan terlihat lebih jelas dan rapi.
+Ringkasan transaksi ditampilkan seperti struk sederhana agar data pesanan terlihat lebih jelas dan rapi.
 
----
+</details>
 
-# 4. 💳 Metode Pembayaran pada Menu Kasir
+<details>
+<summary>💳 4. Metode Pembayaran pada Menu Kasir</summary>
+
+<br>
+
 Aplikasi menyediakan tiga metode pembayaran, yaitu:
 
 - **Tunai**
@@ -120,45 +137,58 @@ Aplikasi menyediakan tiga metode pembayaran, yaitu:
 
 Masing-masing metode memiliki alur penggunaan yang menyesuaikan kebutuhan transaksi.
 
----
+</details>
 
-# 5. 💵 Alur Transaksi Tunai
+<details>
+<summary>💵 5. Alur Transaksi Tunai</summary>
+
+<br>
+
 Jika karyawan memilih metode pembayaran **tunai**, maka setelah nama pelanggan diisi dan metode pembayaran dipilih, karyawan dapat langsung menambahkan menu makanan ke daftar pesanan.
 
 Setelah item masuk ke ringkasan pesanan, karyawan dapat:
 
-- menambah jumlah item,
-- mengurangi jumlah item,
-- menghapus item tertentu,
-- melihat ringkasan seperti struk,
-- dan menyimpan transaksi.
+- menambah jumlah item
+- mengurangi jumlah item
+- menghapus item tertentu
+- melihat ringkasan seperti struk
+- menyimpan transaksi
 
 Setelah transaksi disimpan, akan muncul notifikasi bahwa transaksi telah masuk ke **riwayat transaksi** dan **laporan penjualan**.
 
----
+</details>
 
-# 6. 📷 Alur Transaksi QRIS
+<details>
+<summary>📷 6. Alur Transaksi QRIS</summary>
+
+<br>
+
 Jika karyawan memilih metode pembayaran **QRIS**, maka setelah data pelanggan dan pesanan selesai diinput, aplikasi akan mengarahkan pengguna ke halaman kamera.
 
-Pada tahap ini, karyawan diminta mengambil foto sebagai **bukti pembayaran QRIS**.  
-Setelah foto berhasil diambil, sistem akan menampilkan notifikasi bahwa transaksi telah masuk ke **riwayat transaksi** dan **laporan penjualan**.
+Pada tahap ini, karyawan diminta mengambil foto sebagai **bukti pembayaran QRIS**. Setelah foto berhasil diambil, sistem akan menampilkan notifikasi bahwa transaksi telah masuk ke **riwayat transaksi** dan **laporan penjualan**.
 
-Fitur ini membuat transaksi non-tunai menjadi lebih terdokumentasi.
+</details>
 
----
+<details>
+<summary>📷 7. Alur Transaksi Transfer</summary>
 
-# 7. 📷 Alur Transaksi Transfer
+<br>
+
 Jika karyawan memilih metode pembayaran **transfer**, alurnya hampir sama dengan QRIS.
 
-Setelah data transaksi selesai diinput, pengguna akan diarahkan ke kamera untuk mengambil **foto bukti pembayaran transfer**.  
-Setelah bukti pembayaran berhasil disimpan, sistem akan menampilkan notifikasi bahwa transaksi telah masuk ke **riwayat transaksi** dan **laporan penjualan**.
+Setelah data transaksi selesai diinput, pengguna akan diarahkan ke kamera untuk mengambil **foto bukti pembayaran transfer**. Setelah bukti pembayaran berhasil disimpan, sistem akan menampilkan notifikasi bahwa transaksi telah masuk ke **riwayat transaksi** dan **laporan penjualan**.
 
----
+</details>
 
-# 8. 📦 Menu Stok untuk Karyawan
+<details>
+<summary>📦 8. Menu Stok untuk Karyawan</summary>
+
+<br>
+
 Pada menu **Stok**, karyawan dapat melakukan pengelolaan stok barang.
 
 Fitur yang tersedia pada halaman ini meliputi:
+
 - melihat **seluruh stok**
 - melihat **stok yang menipis**
 - melihat **stok yang habis**
@@ -167,127 +197,167 @@ Fitur yang tersedia pada halaman ini meliputi:
 
 Dengan fitur ini, karyawan dapat membantu memantau kondisi persediaan produk secara lebih cepat dan lebih akurat.
 
----
+</details>
 
-# 9. 🔄 Update Stok Produk
-Setiap produk yang ada pada halaman stok dapat diedit jumlah stoknya.  
-Karyawan dapat melakukan pembaruan stok dengan cara memasukkan angka terbaru pada form update stok.
+<details>
+<summary>🔄 9. Update Stok Produk</summary>
+
+<br>
+
+Setiap produk yang ada pada halaman stok dapat diedit jumlah stoknya. Karyawan dapat melakukan pembaruan stok dengan cara memasukkan angka terbaru pada form update stok.
 
 Fitur ini berguna ketika:
-- ada barang baru masuk,
-- ada koreksi data stok,
-- atau ada penyesuaian stok berdasarkan kondisi sebenarnya.
 
----
+- ada barang baru masuk
+- ada koreksi data stok
+- ada penyesuaian stok berdasarkan kondisi sebenarnya
 
-# 10. 🕘 Riwayat Transaksi untuk Karyawan
+</details>
+
+<details>
+<summary>🕘 10. Riwayat Transaksi untuk Karyawan</summary>
+
+<br>
+
 Pada menu **Riwayat Transaksi**, karyawan dapat melihat daftar transaksi yang sudah tersimpan.
 
 Data transaksi dapat dicari berdasarkan:
+
 - **nama pelanggan**
 - **nama kasir**
 - **metode pembayaran**
 
 Selain itu, transaksi juga dapat difilter berdasarkan periode waktu:
+
 - **semua**
 - **hari ini**
 - **minggu ini**
 - **bulan ini**
 
 Karyawan juga dapat memfilter transaksi berdasarkan metode pembayaran:
+
 - **semua**
 - **tunai**
 - **QRIS**
 - **transfer**
 
----
+</details>
 
-# 11. 🧾 Tampilan Detail Riwayat Transaksi
+<details>
+<summary>🧾 11. Tampilan Detail Riwayat Transaksi</summary>
+
+<br>
+
 Tampilan riwayat transaksi disusun seperti **struk digital**, sehingga informasi transaksi terlihat lengkap dan mudah dibaca.
 
 Informasi yang dapat dilihat pada riwayat transaksi antara lain:
+
 - nama kasir
 - waktu transaksi
 - total pembayaran
 - metode pembayaran
 - bukti pembayaran berupa foto
 
-Hal ini membuat riwayat transaksi tidak hanya berfungsi sebagai daftar data, tetapi juga sebagai dokumentasi transaksi yang lengkap.
+</details>
 
----
+<details>
+<summary>👑 12. Menu Pemilik / Owner</summary>
 
-# 12. 👑 Menu Pemilik / Owner
+<br>
+
 Jika pengguna masuk sebagai **pemilik**, maka menu yang tersedia lebih lengkap dan terbagi menjadi beberapa kelompok, yaitu:
 
-## Menu Operasional
+### Menu Operasional
 - **Kasir**
 - **Stok**
 - **Riwayat Transaksi**
 
-## Menu Manajemen
+### Menu Manajemen
 - **Karyawan**
 - **Produk**
 
-## Menu Laporan
+### Menu Laporan
 - **Laporan**
 
 Dengan susunan menu ini, pemilik usaha dapat mengontrol seluruh aktivitas penting usaha dari satu aplikasi.
 
----
+</details>
 
-# 13. 🧾 Kasir untuk Pemilik
+<details>
+<summary>🧾 13. Kasir untuk Pemilik</summary>
+
+<br>
+
 Jika pemilik memilih menu **Kasir**, maka tampilan dan alur penggunaannya sama seperti menu kasir pada akun karyawan.
 
 Pemilik juga dapat:
-- menginput nama pelanggan,
-- memilih metode pembayaran,
-- menambahkan menu pesanan,
-- melihat ringkasan transaksi,
-- menyimpan transaksi,
-- serta mengunggah bukti pembayaran untuk QRIS dan transfer.
 
----
+- menginput nama pelanggan
+- memilih metode pembayaran
+- menambahkan menu pesanan
+- melihat ringkasan transaksi
+- menyimpan transaksi
+- mengunggah bukti pembayaran untuk QRIS dan transfer
 
-# 14. 📦 Stok untuk Pemilik
+</details>
+
+<details>
+<summary>📦 14. Stok untuk Pemilik</summary>
+
+<br>
+
 Jika pemilik memilih menu **Stok**, maka fitur yang tersedia juga sama seperti pada akun karyawan, yaitu:
-- melihat semua stok,
-- melihat stok menipis,
-- melihat stok habis,
-- mencari produk,
-- dan memperbarui jumlah stok.
+
+- melihat semua stok
+- melihat stok menipis
+- melihat stok habis
+- mencari produk
+- memperbarui jumlah stok
 
 Dengan demikian, pemilik tetap bisa memantau dan mengelola persediaan barang secara langsung.
 
----
+</details>
 
-# 15. 🕘 Riwayat Transaksi untuk Pemilik
+<details>
+<summary>🕘 15. Riwayat Transaksi untuk Pemilik</summary>
+
+<br>
+
 Jika pemilik memilih menu **Riwayat Transaksi**, maka tampilannya secara umum sama seperti pada akun karyawan.
 
 Namun, terdapat perbedaan penting, yaitu:
+
 - **pemilik dapat melihat total omzet**
-- sedangkan **karyawan tidak dapat melihat total omzet**
+- **karyawan tidak dapat melihat total omzet**
 
-Perbedaan ini menunjukkan bahwa aplikasi telah membedakan informasi yang dapat diakses sesuai dengan level pengguna.
+</details>
 
----
+<details>
+<summary>👥 16. Manajemen Karyawan</summary>
 
-# 16. 👥 Manajemen Karyawan
+<br>
+
 Jika pemilik memilih menu **Karyawan**, maka pemilik dapat:
-- menambahkan akun karyawan,
-- mengubah data karyawan,
+
+- menambahkan akun karyawan
+- mengubah data karyawan
 - menghapus akun karyawan
 
 Saat menambahkan akun karyawan, data yang perlu diinput antara lain:
+
 - **nama karyawan**
 - **email**
 - **password**
 
-Fitur ini memudahkan pemilik dalam mengelola akun pengguna yang terdaftar di dalam sistem.
+</details>
 
----
+<details>
+<summary>🛍️ 17. Manajemen Produk</summary>
 
-# 17. 🛍️ Manajemen Produk
+<br>
+
 Jika pemilik memilih menu **Produk**, maka pemilik dapat:
+
 - menambahkan produk
 - mengubah data produk
 - menghapus produk
@@ -298,17 +368,20 @@ Jika pemilik memilih menu **Produk**, maka pemilik dapat:
 - menambahkan gambar produk
 
 Saat menambahkan produk, data yang perlu diinput antara lain:
+
 - **gambar produk**
 - **nama produk**
 - **harga jual**
 - **harga modal**
 - **stok**
 
-Fitur ini sangat penting karena seluruh transaksi akan menggunakan data produk yang tersimpan pada sistem.
+</details>
 
----
+<details>
+<summary>📊 18. Menu Laporan</summary>
 
-# 18. 📊 Menu Laporan
+<br>
+
 Jika pemilik memilih menu **Laporan**, maka pemilik dapat memantau berbagai informasi penting terkait usaha, yaitu:
 
 - **omzet**
@@ -320,20 +393,25 @@ Jika pemilik memilih menu **Laporan**, maka pemilik dapat memantau berbagai info
 - **semua transaksi**
 - **grafik keuntungan bersih bulanan berdasarkan transaksi yang tersimpan**
 
-Laporan ini membantu pemilik dalam mengevaluasi performa usaha secara lebih terukur dan berbasis data.
+</details>
 
----
+<details>
+<summary>🏆 19. Produk Terlaris dan Rincian Penjualan</summary>
 
-# 19. 🏆 Produk Terlaris dan Rincian Penjualan
+<br>
+
 Pada bagian laporan, pemilik dapat melihat produk terlaris beserta jumlah produk yang paling banyak terjual.
 
 Selain itu, tersedia juga rincian barang keluar per produk, sehingga pemilik dapat mengetahui produk mana yang paling aktif terjual dan berapa jumlah item yang sudah keluar.
 
----
+</details>
 
-# 20. 📈 Grafik Keuntungan Bersih Bulanan
-Aplikasi juga menyediakan visualisasi data dalam bentuk grafik keuntungan bersih bulanan.  
-Grafik ini disusun berdasarkan transaksi yang telah tersimpan di dalam sistem, sehingga pemilik dapat melihat perkembangan keuntungan dari waktu ke waktu secara lebih mudah.
+<details>
+<summary>📈 20. Grafik Keuntungan Bersih Bulanan</summary>
+
+<br>
+
+Aplikasi juga menyediakan visualisasi data dalam bentuk grafik keuntungan bersih bulanan. Grafik ini disusun berdasarkan transaksi yang telah tersimpan di dalam sistem, sehingga pemilik dapat melihat perkembangan keuntungan dari waktu ke waktu secara lebih mudah.
 
 </details>
 
@@ -341,77 +419,96 @@ Grafik ini disusun berdasarkan transaksi yang telah tersimpan di dalam sistem, s
 
 # 🔄 Alur Sistem Aplikasi
 
+<details>
+<summary>📌 Klik untuk melihat alur sistem aplikasi</summary>
+
+<br>
+
 Berikut gambaran alur kerja aplikasi secara umum:
 
-1. Pengguna membuka aplikasi  
-2. Pengguna login ke dalam sistem  
-3. Sistem mengenali role pengguna, apakah sebagai karyawan atau pemilik  
-4. Jika login sebagai karyawan, sistem menampilkan menu kasir, stok, dan riwayat transaksi  
-5. Jika login sebagai pemilik, sistem menampilkan menu kasir, stok, riwayat transaksi, karyawan, produk, dan laporan  
-6. Pengguna dapat melakukan transaksi melalui menu kasir  
-7. Jika metode pembayaran tunai, transaksi dapat langsung disimpan  
-8. Jika metode pembayaran QRIS atau transfer, pengguna diminta mengunggah bukti pembayaran melalui kamera  
-9. Data transaksi akan masuk ke riwayat transaksi dan laporan penjualan  
-10. Data stok dapat diperbarui melalui menu stok  
-11. Pemilik dapat mengelola data karyawan dan produk  
-12. Pemilik dapat memantau omzet, keuntungan, dan aktivitas penjualan melalui menu laporan  
+1. Pengguna membuka aplikasi
+2. Pengguna login ke dalam sistem
+3. Sistem mengenali role pengguna, apakah sebagai karyawan atau pemilik
+4. Jika login sebagai karyawan, sistem menampilkan menu kasir, stok, dan riwayat transaksi
+5. Jika login sebagai pemilik, sistem menampilkan menu kasir, stok, riwayat transaksi, karyawan, produk, dan laporan
+6. Pengguna dapat melakukan transaksi melalui menu kasir
+7. Jika metode pembayaran tunai, transaksi dapat langsung disimpan
+8. Jika metode pembayaran QRIS atau transfer, pengguna diminta mengunggah bukti pembayaran melalui kamera
+9. Data transaksi akan masuk ke riwayat transaksi dan laporan penjualan
+10. Data stok dapat diperbarui melalui menu stok
+11. Pemilik dapat mengelola data karyawan dan produk
+12. Pemilik dapat memantau omzet, keuntungan, dan aktivitas penjualan melalui menu laporan
 
-Dari alur ini terlihat bahwa seluruh fitur dalam aplikasi saling terhubung dan membentuk sistem usaha yang terintegrasi.
+
+
+</details>
 
 ---
 
-# 🧠 Use Case 
+# 🧠 Use Case
 
-## 👨‍💼 Karyawan
+<details>
+<summary>👨‍💼 Use Case Karyawan</summary>
+
+<br>
+
 Karyawan dapat melakukan:
-- login ke sistem,
-- membuka menu kasir,
-- menginput nama pelanggan,
-- memilih metode pembayaran,
-- menambahkan menu ke pesanan,
-- mengelola jumlah item pesanan,
-- menyimpan transaksi,
-- mengambil foto bukti pembayaran untuk QRIS atau transfer,
-- membuka menu stok,
-- melihat semua stok,
-- melihat stok menipis,
-- melihat stok habis,
-- mencari produk,
-- memperbarui stok,
-- membuka riwayat transaksi,
-- mencari transaksi berdasarkan pelanggan, kasir, atau pembayaran,
-- memfilter transaksi berdasarkan waktu,
-- memfilter transaksi berdasarkan metode pembayaran,
-- serta logout dari sistem.
 
-## 👑 Pemilik / Owner
+- login ke sistem
+- membuka menu kasir
+- menginput nama pelanggan
+- memilih metode pembayaran
+- menambahkan menu ke pesanan
+- mengelola jumlah item pesanan
+- menyimpan transaksi
+- mengambil foto bukti pembayaran untuk QRIS atau transfer
+- membuka menu stok
+- melihat semua stok
+- melihat stok menipis
+- melihat stok habis
+- mencari produk
+- memperbarui stok
+- membuka riwayat transaksi
+- mencari transaksi berdasarkan pelanggan, kasir, atau pembayaran
+- memfilter transaksi berdasarkan waktu
+- memfilter transaksi berdasarkan metode pembayaran
+- logout dari sistem
+
+</details>
+
+<details>
+<summary>👑 Use Case Pemilik / Owner</summary>
+
+<br>
+
 Pemilik dapat melakukan:
-- login ke sistem,
-- menggunakan menu kasir,
-- menggunakan menu stok,
-- melihat riwayat transaksi,
-- melihat total omzet pada riwayat transaksi,
-- menambah akun karyawan,
-- mengubah akun karyawan,
-- menghapus akun karyawan,
-- menambah produk,
-- mengubah produk,
-- menghapus produk,
-- mengatur harga jual, harga modal, stok, dan gambar produk,
-- melihat laporan omzet,
-- melihat keuntungan bersih,
-- melihat produk terlaris,
-- melihat total barang keluar,
-- melihat rincian barang keluar per produk,
-- melihat grafik keuntungan bersih bulanan,
-- melihat seluruh transaksi,
-- serta logout dari sistem.
+
+- login ke sistem
+- menggunakan menu kasir
+- menggunakan menu stok
+- melihat riwayat transaksi
+- melihat total omzet pada riwayat transaksi
+- menambah akun karyawan
+- mengubah akun karyawan
+- menghapus akun karyawan
+- menambah produk
+- mengubah produk
+- menghapus produk
+- mengatur harga jual, harga modal, stok, dan gambar produk
+- melihat laporan omzet
+- melihat keuntungan bersih
+- melihat produk terlaris
+- melihat total barang keluar
+- melihat rincian barang keluar per produk
+- melihat grafik keuntungan bersih bulanan
+- melihat seluruh transaksi
+- logout dari sistem
+
+</details>
 
 ---
 
 # 🖼️ Dokumentasi Tampilan Aplikasi
-
-
 
 ---
 
@@ -424,8 +521,12 @@ Pemilik dapat melakukan:
 
 <table>
   <tr>
-    <td align="center" width="35%">
-      <img src="https://github.com/user-attachments/assets/5b590885-9663-4e9e-8e08-5e01bf8fbda7" alt="WhatsApp Image 2026-04-16 at 16 12 39" width="220" />
+    <td width="35%" align="center" valign="top">
+      <img
+        src="https://github.com/user-attachments/assets/5d5aa168-ca41-4105-b828-29c04b98ecee"
+        alt="Login Page"
+        width="250"
+      />
     </td>
     <td width="65%" valign="top">
 
@@ -448,10 +549,16 @@ Pada halaman ini, pengguna diminta mengisi email dan password. Setelah login ber
 
 <br>
 
+<div align="center">
+
 <table>
   <tr>
-    <td align="center" width="35%">
-      <img src="https://github.com/user-attachments/assets/6e50dbd8-745a-4d1e-bb77-4c2c7ae6617a" alt="WhatsApp Image 2026-04-16 at 16 20 53" width="220" />
+    <td width="35%" align="center" valign="top">
+      <img
+        src="https://github.com/user-attachments/assets/6e50dbd8-745a-4d1e-bb77-4c2c7ae6617a"
+        alt="Dashboard Karyawan"
+        width="220"
+      />
     </td>
     <td width="65%" valign="top">
 
@@ -462,6 +569,7 @@ Tampilan ini dibuat lebih fokus pada kebutuhan operasional harian agar penggunaa
    </td>
   </tr>
 </table>
+
 </div>
 
 </details>
@@ -475,13 +583,25 @@ Tampilan ini dibuat lebih fokus pada kebutuhan operasional harian agar penggunaa
 
 <div align="center">
 
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/2a6a1f0c-59be-4799-acfd-6712dfdef4fc" alt="WhatsApp Image 2026-04-16 at 16 12 39 (1)" width="230" />
-  &nbsp;&nbsp;&nbsp;
-  <img src="https://github.com/user-attachments/assets/f3f2674d-e1ba-4e3b-9923-27a9c842b8ec" alt="WhatsApp Image 2026-04-16 at 16 12 40" width="230" />
-</div>
-
-
+<table align="center">
+  <tr>
+    <td align="center" valign="top">
+      <img
+        src="https://github.com/user-attachments/assets/d382c6eb-358e-443f-8f5a-ed3d52b74158"
+        alt="Dashboard Pemilik 1"
+        width="220"
+      />
+    </td>
+    <td width="20"></td>
+    <td align="center" valign="top">
+      <img
+        src="https://github.com/user-attachments/assets/a41b6621-0e9b-4657-bc60-584530fcde6c"
+        alt="Dashboard Pemilik 2"
+        width="220"
+      />
+    </td>
+  </tr>
+</table>
 
 <br><br>
 
@@ -502,15 +622,24 @@ Pada role ini, pemilik dapat mengakses kasir, stok, riwayat transaksi, manajemen
 
 <div align="center">
 
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/1f0da350-4971-4e05-9490-1d9385cf89a9" alt="image 1" width="180" />
-  &nbsp;&nbsp;
-  <img src="https://github.com/user-attachments/assets/37a18a77-697e-4367-b517-e546ba492f64" alt="image 2" width="180" />
-  &nbsp;&nbsp;
-  <img src="https://github.com/user-attachments/assets/9b7c12e4-0d1d-4ecd-815e-5b2549dfdf0f" alt="image 3" width="180" />
-</div>
+<table align="center">
+  <tr>
+    <td align="center" valign="top">
+      <img src="https://github.com/user-attachments/assets/1f0da350-4971-4e05-9490-1d9385cf89a9" alt="Halaman Kasir 1" width="180" />
+    </td>
+    <td width="16"></td>
+    <td align="center" valign="top">
+      <img src="https://github.com/user-attachments/assets/37a18a77-697e-4367-b517-e546ba492f64" alt="Halaman Kasir 2" width="180" />
+    </td>
+    <td width="16"></td>
+    <td align="center" valign="top">
+      <img src="https://github.com/user-attachments/assets/9b7c12e4-0d1d-4ecd-815e-5b2549dfdf0f" alt="Halaman Kasir 3" width="180" />
+    </td>
+  </tr>
+</table>
 
 <br><br>
+
 <b>Halaman Kasir:</b><br>
 Halaman kasir digunakan untuk melakukan input transaksi pelanggan.  
 Pada halaman ini, pengguna dapat menginput nama pelanggan, memilih metode pembayaran, menambahkan menu makanan ke pesanan, serta melihat ringkasan transaksi sebelum disimpan.
@@ -528,13 +657,17 @@ Pada halaman ini, pengguna dapat menginput nama pelanggan, memilih metode pembay
 
 <div align="center">
 
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/6424c5d7-ac4b-4ee8-91c2-35725f1f0e5c" alt="image 1" width="220" />
-  &nbsp;&nbsp;&nbsp;
-  <img src="https://github.com/user-attachments/assets/b369089f-a4cb-450b-b0e7-dd4a0618e3c7" alt="image 2" width="220" />
-</div>
-
-
+<table align="center">
+  <tr>
+    <td align="center" valign="top">
+      <img src="https://github.com/user-attachments/assets/6424c5d7-ac4b-4ee8-91c2-35725f1f0e5c" alt="Transaksi Tunai 1" width="220" />
+    </td>
+    <td width="20"></td>
+    <td align="center" valign="top">
+      <img src="https://github.com/user-attachments/assets/b369089f-a4cb-450b-b0e7-dd4a0618e3c7" alt="Transaksi Tunai 2" width="220" />
+    </td>
+  </tr>
+</table>
 
 <br><br>
 
@@ -555,15 +688,26 @@ Pada ringkasan tersebut, item dapat ditambah, dikurangi, atau dihapus. Setelah t
 
 <div align="center">
 
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/cfc15d26-ad1d-4d47-a721-ea5afe7b88e8" alt="image 1" width="160" />
-  &nbsp;
-  <img src="https://github.com/user-attachments/assets/7c53a68d-4db2-473c-acc7-c712bacfa6cf" alt="image 2" width="160" />
-  &nbsp;
-  <img src="https://github.com/user-attachments/assets/63cecc69-01c8-4db5-b96f-39d91991fb37" alt="image 3" width="160" />
-  &nbsp;
-  <img src="https://github.com/user-attachments/assets/3f5eca5c-ad1c-4844-a814-6a0143fe44ea" alt="image 4" width="160" />
-</div>
+<table align="center">
+  <tr>
+    <td align="center" valign="top">
+      <img src="https://github.com/user-attachments/assets/cfc15d26-ad1d-4d47-a721-ea5afe7b88e8" alt="Transaksi QRIS 1" width="160" />
+    </td>
+    <td width="12"></td>
+    <td align="center" valign="top">
+      <img src="https://github.com/user-attachments/assets/7c53a68d-4db2-473c-acc7-c712bacfa6cf" alt="Transaksi QRIS 2" width="160" />
+    </td>
+    <td width="12"></td>
+    <td align="center" valign="top">
+      <img src="https://github.com/user-attachments/assets/63cecc69-01c8-4db5-b96f-39d91991fb37" alt="Transaksi QRIS 3" width="160" />
+    </td>
+    <td width="12"></td>
+    <td align="center" valign="top">
+      <img src="https://github.com/user-attachments/assets/3f5eca5c-ad1c-4844-a814-6a0143fe44ea" alt="Transaksi QRIS 4" width="160" />
+    </td>
+  </tr>
+</table>
+
 <br><br>
 
 <b>Transaksi QRIS:</b><br>
@@ -583,15 +727,25 @@ Setelah bukti pembayaran berhasil diambil, sistem akan menampilkan notifikasi ba
 
 <div align="center">
 
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/63403ff6-56b3-44c0-9a93-c724f7fa8048" alt="image 1" width="160" />
-  &nbsp;
-  <img src="https://github.com/user-attachments/assets/84b74e67-e5bd-4ebd-95f8-78ca9a680593" alt="image 2" width="160" />
-  &nbsp;
-  <img src="https://github.com/user-attachments/assets/5a8e9358-67ee-4446-a71e-9474647e7ba3" alt="image 3" width="160" />
-  &nbsp;
-  <img src="https://github.com/user-attachments/assets/1c655b65-6af8-440b-a86a-9cbe1cec7f62" alt="image 4" width="160" />
-</div>
+<table align="center">
+  <tr>
+    <td align="center" valign="top">
+      <img src="https://github.com/user-attachments/assets/63403ff6-56b3-44c0-9a93-c724f7fa8048" alt="Transaksi Transfer 1" width="160" />
+    </td>
+    <td width="12"></td>
+    <td align="center" valign="top">
+      <img src="https://github.com/user-attachments/assets/84b74e67-e5bd-4ebd-95f8-78ca9a680593" alt="Transaksi Transfer 2" width="160" />
+    </td>
+    <td width="12"></td>
+    <td align="center" valign="top">
+      <img src="https://github.com/user-attachments/assets/5a8e9358-67ee-4446-a71e-9474647e7ba3" alt="Transaksi Transfer 3" width="160" />
+    </td>
+    <td width="12"></td>
+    <td align="center" valign="top">
+      <img src="https://github.com/user-attachments/assets/1c655b65-6af8-440b-a86a-9cbe1cec7f62" alt="Transaksi Transfer 4" width="160" />
+    </td>
+  </tr>
+</table>
 
 <br><br>
 
@@ -614,18 +768,23 @@ Pengguna akan diminta mengambil foto bukti pembayaran sebagai dokumentasi, kemud
 
 <table>
   <tr>
-    <td align="center" width="35%">
-      <img src="https://github.com/user-attachments/assets/fd87e089-a31a-4718-8962-d08227d48ed9" alt="WhatsApp Image 2026-04-16 at 17 35 56" width="260" />
+    <td width="35%" align="center" valign="top">
+      <img
+        src="https://github.com/user-attachments/assets/fd87e089-a31a-4718-8962-d08227d48ed9"
+        alt="Ringkasan Pesanan"
+        width="260"
+      />
     </td>
     <td width="65%" valign="top">
 
 ### Ringkasan Pesanan
-Tulis penjelasan gambar di sini sesuai bagian dokumentasi yang kamu mau.  
-Misalnya isi penjelasannya tentang halaman tertentu, fitur tertentu, atau proses tertentu pada aplikasi.
+Bagian ini menampilkan ringkasan transaksi sebelum pesanan disimpan.  
+Pengguna dapat melihat nama pelanggan, metode pembayaran, daftar item yang dipesan, jumlah item, serta total pembayaran. Pada bagian ini juga tersedia fitur untuk menambah, mengurangi, atau menghapus item pesanan.
 
    </td>
   </tr>
 </table>
+
 </div>
 
 </details>
@@ -641,8 +800,12 @@ Misalnya isi penjelasannya tentang halaman tertentu, fitur tertentu, atau proses
 
 <table>
   <tr>
-    <td align="center" width="35%">
-      <img src="https://github.com/user-attachments/assets/90bb0544-f91d-496e-9881-c74bb6ca4d3a" alt="WhatsApp Image 2026-04-16 at 17 39 27" width="220" />
+    <td width="35%" align="center" valign="top">
+      <img
+        src="https://github.com/user-attachments/assets/90bb0544-f91d-496e-9881-c74bb6ca4d3a"
+        alt="Halaman Stok"
+        width="220"
+      />
     </td>
     <td width="65%" valign="top">
 
@@ -653,6 +816,7 @@ Pada halaman ini, pengguna dapat melihat semua stok, stok menipis, dan stok habi
    </td>
   </tr>
 </table>
+
 </div>
 
 </details>
@@ -668,8 +832,12 @@ Pada halaman ini, pengguna dapat melihat semua stok, stok menipis, dan stok habi
 
 <table>
   <tr>
-    <td align="center" width="35%">
-      <img src="https://github.com/user-attachments/assets/6bb32937-7df2-41f5-942a-e926da13e7d4" alt="WhatsApp Image 2026-04-16 at 17 41 51" width="220" />
+    <td width="35%" align="center" valign="top">
+      <img
+        src="https://github.com/user-attachments/assets/6bb32937-7df2-41f5-942a-e926da13e7d4"
+        alt="Pencarian Produk"
+        width="220"
+      />
     </td>
     <td width="65%" valign="top">
 
@@ -694,11 +862,17 @@ Fitur ini memudahkan pengguna ketika ingin menemukan produk tertentu tanpa perlu
 
 <div align="center">
 
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/999df565-57f8-4442-b028-344f5ed9dd24" alt="image 1" width="220" />
-  &nbsp;&nbsp;&nbsp;
-  <img src="https://github.com/user-attachments/assets/644a54ac-e4e6-4c23-8f7f-577b57819989" alt="image 2" width="220" />
-</div>
+<table align="center">
+  <tr>
+    <td align="center" valign="top">
+      <img src="https://github.com/user-attachments/assets/999df565-57f8-4442-b028-344f5ed9dd24" alt="Update Stok 1" width="220" />
+    </td>
+    <td width="20"></td>
+    <td align="center" valign="top">
+      <img src="https://github.com/user-attachments/assets/644a54ac-e4e6-4c23-8f7f-577b57819989" alt="Update Stok 2" width="220" />
+    </td>
+  </tr>
+</table>
 
 <br><br>
 
@@ -721,8 +895,8 @@ Pengguna hanya perlu memasukkan angka stok terbaru, lalu sistem akan menyimpan p
 
 <table>
   <tr>
-    <td align="center" width="35%">
-      <img src="https://github.com/user-attachments/assets/d87cae4b-c0b5-4478-8208-947c0f29527f" alt="Riwayat transaksi" width="220" />
+    <td width="35%" align="center" valign="top">
+      <img src="https://github.com/user-attachments/assets/d87cae4b-c0b5-4478-8208-947c0f29527f" alt="Riwayat Transaksi Karyawan 1" width="220" />
     </td>
     <td width="65%" valign="top">
 
@@ -734,8 +908,8 @@ Pada halaman ini, karyawan dapat melihat daftar transaksi yang telah tersimpan d
   </tr>
 
   <tr>
-    <td align="center" width="35%">
-      <img src="https://github.com/user-attachments/assets/f9fc5a01-1325-4a7a-abba-f4a46faaec74" alt="Tampilan transaksi tersimpan" width="220" />
+    <td width="35%" align="center" valign="top">
+      <img src="https://github.com/user-attachments/assets/f9fc5a01-1325-4a7a-abba-f4a46faaec74" alt="Riwayat Transaksi Karyawan 2" width="220" />
     </td>
     <td width="65%" valign="top">
 
@@ -747,12 +921,12 @@ Data transaksi ditampilkan secara rapi sehingga pengguna dapat melihat informasi
   </tr>
 
   <tr>
-    <td align="center" width="35%">
-      <img src="https://github.com/user-attachments/assets/9de67ff5-58e4-4083-b5e8-212f2042454b" alt="Pencarian pelanggan atau kasir" width="220" />
+    <td width="35%" align="center" valign="top">
+      <img src="https://github.com/user-attachments/assets/9de67ff5-58e4-4083-b5e8-212f2042454b" alt="Pencarian berdasarkan nama" width="220" />
     </td>
     <td width="65%" valign="top">
 
-### Fitur Pencarian berdasarkan nama
+### Fitur Pencarian berdasarkan Nama
 Gambar ini menunjukkan fitur pencarian transaksi berdasarkan **nama pelanggan** atau **nama kasir**.  
 Fitur ini memudahkan pengguna ketika ingin mencari data transaksi tertentu tanpa perlu melihat seluruh daftar transaksi secara manual.
 
@@ -760,12 +934,12 @@ Fitur ini memudahkan pengguna ketika ingin mencari data transaksi tertentu tanpa
   </tr>
 
   <tr>
-    <td align="center" width="35%">
-      <img src="https://github.com/user-attachments/assets/85ddac20-efc7-4f1c-8097-1120c806c6d9" alt="Filter metode pembayaran" width="220" />
+    <td width="35%" align="center" valign="top">
+      <img src="https://github.com/user-attachments/assets/85ddac20-efc7-4f1c-8097-1120c806c6d9" alt="Pencarian berdasarkan metode pembayaran" width="220" />
     </td>
     <td width="65%" valign="top">
 
-### Fitur Pencarian berdasarkan metode pembayaran
+### Fitur Pencarian berdasarkan Metode Pembayaran
 Gambar ini menunjukkan hasil pencarian transaksi berdasarkan **metode pembayaran**.  
 Ketika pengguna memilih metode pembayaran tertentu, maka jumlah transaksi yang ditampilkan akan menyesuaikan dengan filter yang dipilih, misalnya tunai, QRIS, atau transfer.
 
@@ -788,8 +962,8 @@ Ketika pengguna memilih metode pembayaran tertentu, maka jumlah transaksi yang d
 
 <table>
   <tr>
-    <td align="center" width="35%">
-      <img src="https://github.com/user-attachments/assets/e7961f8c-aba9-428d-946f-3a688b8f0092" alt="Filter semua riwayat pembayaran" width="220" />
+    <td width="35%" align="center" valign="top">
+      <img src="https://github.com/user-attachments/assets/e7961f8c-aba9-428d-946f-3a688b8f0092" alt="Filter Semua" width="220" />
     </td>
     <td width="65%" valign="top">
 
@@ -801,8 +975,8 @@ Dengan filter ini, pengguna dapat menampilkan seluruh data transaksi tanpa batas
   </tr>
 
   <tr>
-    <td align="center" width="35%">
-      <img src="https://github.com/user-attachments/assets/47235370-2bc3-4f07-89dc-28e88c0d0064" alt="Filter hari ini" width="220" />
+    <td width="35%" align="center" valign="top">
+      <img src="https://github.com/user-attachments/assets/47235370-2bc3-4f07-89dc-28e88c0d0064" alt="Filter Hari Ini" width="220" />
     </td>
     <td width="65%" valign="top">
 
@@ -814,8 +988,8 @@ Fitur ini membantu pengguna ketika ingin memantau transaksi yang terjadi pada ha
   </tr>
 
   <tr>
-    <td align="center" width="35%">
-      <img src="https://github.com/user-attachments/assets/340d1c65-cac9-4bfb-b228-32e7350aa43b" alt="Filter minggu ini" width="220" />
+    <td width="35%" align="center" valign="top">
+      <img src="https://github.com/user-attachments/assets/340d1c65-cac9-4bfb-b228-32e7350aa43b" alt="Filter Minggu Ini" width="220" />
     </td>
     <td width="65%" valign="top">
 
@@ -827,8 +1001,8 @@ Dengan filter ini, pengguna dapat memantau seluruh transaksi yang terjadi dalam 
   </tr>
 
   <tr>
-    <td align="center" width="35%">
-      <img src="https://github.com/user-attachments/assets/64178f2b-bb8a-470a-bd58-54e7c1907c9e" alt="Filter bulan ini" width="220" />
+    <td width="35%" align="center" valign="top">
+      <img src="https://github.com/user-attachments/assets/64178f2b-bb8a-470a-bd58-54e7c1907c9e" alt="Filter Bulan Ini" width="220" />
     </td>
     <td width="65%" valign="top">
 
@@ -840,8 +1014,8 @@ Fitur ini memudahkan pengguna dalam melihat ringkasan transaksi bulanan tanpa pe
   </tr>
 
   <tr>
-    <td align="center" width="35%">
-      <img src="https://github.com/user-attachments/assets/004472c8-c8f0-4845-9062-cdec001d9097" alt="Filter metode pembayaran" width="220" />
+    <td width="35%" align="center" valign="top">
+      <img src="https://github.com/user-attachments/assets/004472c8-c8f0-4845-9062-cdec001d9097" alt="Filter Metode Pembayaran" width="220" />
     </td>
     <td width="65%" valign="top">
 
@@ -874,8 +1048,12 @@ Selain itu, transaksi juga dapat difilter berdasarkan metode pembayaran seperti 
 
 <table>
   <tr>
-    <td align="center" width="35%">
-      <img src="https://github.com/user-attachments/assets/eeeecb92-1c16-423f-8a1a-950731a1828c" alt="WhatsApp Image 2026-04-16 at 18 58 36" width="220" />
+    <td width="35%" align="center" valign="top">
+      <img
+        src="https://github.com/user-attachments/assets/eeeecb92-1c16-423f-8a1a-950731a1828c"
+        alt="Detail Riwayat Transaksi"
+        width="220"
+      />
     </td>
     <td width="65%" valign="top">
 
@@ -885,7 +1063,7 @@ Informasi yang dapat dilihat antara lain nama kasir, waktu transaksi, total pemb
 
    </td>
   </tr>
-</table> 
+</table>
 
 </div>
 
@@ -902,18 +1080,23 @@ Informasi yang dapat dilihat antara lain nama kasir, waktu transaksi, total pemb
 
 <table>
   <tr>
-    <td align="center" width="35%">
-      <img src="https://github.com/user-attachments/assets/bfa4ddfd-d829-41d4-ba00-ae39defb8cec" alt="WhatsApp Image 2026-04-16 at 19 02 03" width="220" />
+    <td width="35%" align="center" valign="top">
+      <img
+        src="https://github.com/user-attachments/assets/bfa4ddfd-d829-41d4-ba00-ae39defb8cec"
+        alt="Riwayat Transaksi Pemilik"
+        width="220"
+      />
     </td>
     <td width="65%" valign="top">
 
-### Tampilan Halaman Riwayat Transaksi Pada Akun Pemilik
+### Tampilan Halaman Riwayat Transaksi pada Akun Pemilik
 Pada akun pemilik, tampilan riwayat transaksi secara umum sama seperti pada akun karyawan.  
 Namun, pada halaman ini pemilik juga dapat melihat **total omzet**, sedangkan informasi tersebut tidak ditampilkan pada akun karyawan.
 
    </td>
   </tr>
 </table>
+
 </div>
 
 </details>
@@ -929,8 +1112,12 @@ Namun, pada halaman ini pemilik juga dapat melihat **total omzet**, sedangkan in
 
 <table>
   <tr>
-    <td align="center" width="35%">
-      <img src="https://github.com/user-attachments/assets/2ce9faad-5f3b-46cd-9033-ecb8c8a6b752" alt="WhatsApp Image 2026-04-16 at 19 05 07" width="220" />
+    <td width="35%" align="center" valign="top">
+      <img
+        src="https://github.com/user-attachments/assets/2ce9faad-5f3b-46cd-9033-ecb8c8a6b752"
+        alt="Halaman Manajemen Karyawan"
+        width="220"
+      />
     </td>
     <td width="65%" valign="top">
 
@@ -957,12 +1144,16 @@ Pemilik dapat menambahkan, mengubah, dan menghapus akun karyawan sesuai kebutuha
 
 <table>
   <tr>
-    <td align="center" width="35%">
-      <img src="https://github.com/user-attachments/assets/4b2f7296-9ce8-427d-8889-13849ba39037" alt="WhatsApp Image 2026-04-16 at 19 10 48" width="220" />
+    <td width="35%" align="center" valign="top">
+      <img
+        src="https://github.com/user-attachments/assets/4b2f7296-9ce8-427d-8889-13849ba39037"
+        alt="Form Tambah Karyawan"
+        width="220"
+      />
     </td>
     <td width="65%" valign="top">
 
-### Tampilan saat tambah karyawan
+### Tampilan saat Tambah Karyawan
 Saat menambahkan akun karyawan baru, pemilik diminta mengisi nama karyawan, email, dan password.  
 Form ini digunakan untuk membuat akun baru yang nantinya dapat digunakan untuk login ke dalam sistem.
 
@@ -985,8 +1176,12 @@ Form ini digunakan untuk membuat akun baru yang nantinya dapat digunakan untuk l
 
 <table>
   <tr>
-    <td align="center" width="35%">
-      <img src="https://github.com/user-attachments/assets/04b4bd69-fb06-4868-901a-89123c299c3d" alt="WhatsApp Image 2026-04-16 at 19 23 12" width="220" />
+    <td width="35%" align="center" valign="top">
+      <img
+        src="https://github.com/user-attachments/assets/04b4bd69-fb06-4868-901a-89123c299c3d"
+        alt="Halaman Manajemen Produk"
+        width="220"
+      />
     </td>
     <td width="65%" valign="top">
 
@@ -1013,12 +1208,16 @@ Pada halaman ini, pemilik dapat melihat daftar menu, harga, stok, serta gambar p
 
 <table>
   <tr>
-    <td align="center" width="35%">
-      <img src="https://github.com/user-attachments/assets/5e8b0728-ccaf-4b74-a5bb-efa0bd99d211" alt="WhatsApp Image 2026-04-16 at 19 25 37" width="220" />
+    <td width="35%" align="center" valign="top">
+      <img
+        src="https://github.com/user-attachments/assets/5e8b0728-ccaf-4b74-a5bb-efa0bd99d211"
+        alt="Form Tambah Produk"
+        width="220"
+      />
     </td>
     <td width="65%" valign="top">
 
-### Tampilan saat menambah produk
+### Tampilan saat Menambah Produk
 Saat menambahkan produk baru, pemilik perlu mengisi gambar produk, nama produk, harga jual, harga modal, dan stok.  
 Form ini digunakan untuk menambahkan menu baru agar dapat langsung digunakan pada transaksi penjualan.
 
@@ -1039,17 +1238,23 @@ Form ini digunakan untuk menambahkan menu baru agar dapat langsung digunakan pad
 
 <div align="center">
 
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/c13f0065-0672-494c-a20e-5cdd62867929" alt="Edit produk" width="220" />
-  &nbsp;&nbsp;&nbsp;
-  <img src="https://github.com/user-attachments/assets/401e52f2-b64f-4e29-96a0-112feaae9232" alt="Hapus produk" width="220" />
-</div>
+<table align="center">
+  <tr>
+    <td align="center" valign="top">
+      <img src="https://github.com/user-attachments/assets/c13f0065-0672-494c-a20e-5cdd62867929" alt="Edit Produk" width="220" />
+    </td>
+    <td width="20"></td>
+    <td align="center" valign="top">
+      <img src="https://github.com/user-attachments/assets/401e52f2-b64f-4e29-96a0-112feaae9232" alt="Hapus Produk" width="220" />
+    </td>
+  </tr>
+</table>
 
 <br>
 
 <div align="center">
   <b>Kiri:</b> Tampilan untuk memperbarui data produk yang sudah ada.  
-  <br>
+  <br />
   <b>Kanan:</b> Tampilan untuk menghapus produk yang tidak lagi dijual.
 </div>
 
@@ -1074,12 +1279,16 @@ Fitur ini membuat data produk tetap rapi, relevan, dan sesuai dengan kondisi usa
 
 <table>
   <tr>
-    <td align="center" width="35%">
-      <img src="https://github.com/user-attachments/assets/b12360f3-9236-4db9-bbf5-28f92cf3eedc" alt="Halaman laporan" width="220" />
+    <td width="35%" align="center" valign="top">
+      <img
+        src="https://github.com/user-attachments/assets/b12360f3-9236-4db9-bbf5-28f92cf3eedc"
+        alt="Halaman Laporan"
+        width="220"
+      />
     </td>
     <td width="65%" valign="top">
 
-### Halaman laporan pada akun pemilik
+### Halaman Laporan pada Akun Pemilik
 Halaman laporan digunakan oleh pemilik untuk memantau performa usaha.  
 Pada halaman ini, pemilik dapat melihat omzet, keuntungan bersih, total barang keluar, produk terlaris, aktivitas, dan data transaksi secara menyeluruh.
 
@@ -1102,12 +1311,16 @@ Pada halaman ini, pemilik dapat melihat omzet, keuntungan bersih, total barang k
 
 <table>
   <tr>
-    <td align="center" width="35%">
-      <img src="https://github.com/user-attachments/assets/b1815e62-5695-423c-ba58-56800373560b" alt="Produk terlaris dan rincian barang keluar" width="280" />
+    <td width="35%" align="center" valign="top">
+      <img
+        src="https://github.com/user-attachments/assets/b1815e62-5695-423c-ba58-56800373560b"
+        alt="Produk Terlaris dan Rincian Barang Keluar"
+        width="280"
+      />
     </td>
     <td width="65%" valign="top">
 
-### Tampilan produk terlaris dan rincian barang keluar
+### Tampilan Produk Terlaris dan Rincian Barang Keluar
 Bagian ini menampilkan produk yang paling banyak terjual beserta jumlah penjualannya.  
 Selain itu, ditampilkan juga rincian barang keluar per produk agar pemilik dapat melihat performa masing-masing produk secara lebih detail.
 
@@ -1130,8 +1343,12 @@ Selain itu, ditampilkan juga rincian barang keluar per produk agar pemilik dapat
 
 <table>
   <tr>
-    <td align="center" width="35%">
-      <img src="https://github.com/user-attachments/assets/2da24db6-d3f4-4ee8-97b1-6e6bc28aa6d8" alt="Grafik keuntungan bersih bulanan" width="280" />
+    <td width="35%" align="center" valign="top">
+      <img
+        src="https://github.com/user-attachments/assets/2da24db6-d3f4-4ee8-97b1-6e6bc28aa6d8"
+        alt="Grafik Keuntungan Bersih Bulanan"
+        width="280"
+      />
     </td>
     <td width="65%" valign="top">
 
@@ -1142,6 +1359,7 @@ Dengan visualisasi ini, pemilik dapat membaca perkembangan usaha dengan lebih mu
    </td>
   </tr>
 </table>
+
 </div>
 
 </details>
@@ -1151,13 +1369,10 @@ Dengan visualisasi ini, pemilik dapat membaca perkembangan usaha dengan lebih mu
 # 🧩 Widget yang Digunakan
 
 <details>
-<summary>🛠️ Klik untuk melihat widget yang digunakan</summary>
+<summary>📌 Widget Dasar</summary>
 
 <br>
 
-Berikut adalah widget Flutter yang digunakan atau sangat relevan berdasarkan alur aplikasi:
-
-## 📌 Widget Dasar
 - `MaterialApp`
 - `Scaffold`
 - `SafeArea`
@@ -1165,9 +1380,13 @@ Berikut adalah widget Flutter yang digunakan atau sangat relevan berdasarkan alu
 
 Widget dasar ini digunakan sebagai kerangka utama aplikasi.
 
----
+</details>
 
-## 📌 Widget Layout
+<details>
+<summary>📐 Widget Layout</summary>
+
+<br>
+
 - `Column`
 - `Row`
 - `Container`
@@ -1178,9 +1397,13 @@ Widget dasar ini digunakan sebagai kerangka utama aplikasi.
 
 Widget layout digunakan untuk menyusun tampilan agar rapi, proporsional, dan mudah dipahami.
 
----
+</details>
 
-## 📌 Widget Teks dan Informasi
+<details>
+<summary>📝 Widget Teks dan Informasi</summary>
+
+<br>
+
 - `Text`
 - `Icon`
 - `Card`
@@ -1190,9 +1413,13 @@ Widget layout digunakan untuk menyusun tampilan agar rapi, proporsional, dan mud
 
 Widget ini digunakan untuk menampilkan judul, label, status stok, informasi menu, dan elemen visual lainnya.
 
----
+</details>
 
-## 📌 Widget Form dan Input
+<details>
+<summary>⌨️ Widget Form dan Input</summary>
+
+<br>
+
 - `Form`
 - `TextField`
 - `TextFormField`
@@ -1203,18 +1430,26 @@ Widget ini digunakan untuk menampilkan judul, label, status stok, informasi menu
 
 Widget form digunakan pada login, input transaksi, update stok, tambah karyawan, dan tambah produk.
 
----
+</details>
 
-## 📌 Widget List dan Data
+<details>
+<summary>📋 Widget List dan Data</summary>
+
+<br>
+
 - `ListView`
 - `ListView.builder`
 - `SingleChildScrollView`
 
 Widget ini digunakan untuk menampilkan daftar produk, ringkasan pesanan, stok, riwayat transaksi, dan laporan data.
 
----
+</details>
 
-## 📌 Widget Interaksi
+<details>
+<summary>🖱️ Widget Interaksi</summary>
+
+<br>
+
 - `IconButton`
 - `GestureDetector`
 - `InkWell`
@@ -1223,9 +1458,13 @@ Widget ini digunakan untuk menampilkan daftar produk, ringkasan pesanan, stok, r
 
 Widget interaksi memungkinkan pengguna memilih menu, menambah item, mengurangi item, menghapus data, dan menjalankan aksi tertentu.
 
----
+</details>
 
-## 📌 Widget Navigasi dan State
+<details>
+<summary>🧭 Widget Navigasi dan State</summary>
+
+<br>
+
 - `Navigator.push()`
 - `Navigator.pop()`
 - `Drawer`
@@ -1235,18 +1474,26 @@ Widget interaksi memungkinkan pengguna memilih menu, menambah item, mengurangi i
 
 Widget dan konsep ini digunakan untuk perpindahan halaman serta pembaruan tampilan secara dinamis.
 
----
+</details>
 
-## 📌 Widget Notifikasi dan Feedback
+<details>
+<summary>🔔 Widget Notifikasi dan Feedback</summary>
+
+<br>
+
 - `SnackBar`
 - `AlertDialog`
 - `CircularProgressIndicator`
 
 Widget ini digunakan untuk menampilkan notifikasi transaksi berhasil, konfirmasi tindakan, dan proses loading.
 
----
+</details>
 
-## 📌 Widget Media
+<details>
+<summary>🖼️ Widget Media</summary>
+
+<br>
+
 - `Image`
 - `Image.network`
 - `Image.file`
@@ -1254,9 +1501,13 @@ Widget ini digunakan untuk menampilkan notifikasi transaksi berhasil, konfirmasi
 
 Widget media digunakan untuk gambar produk dan pengambilan bukti pembayaran melalui kamera.
 
----
+</details>
 
-## 📌 Widget Visualisasi Data
+<details>
+<summary>📊 Widget Visualisasi Data</summary>
+
+<br>
+
 - `LineChart`
 - `BarChart`
 
@@ -1268,56 +1519,185 @@ Widget ini digunakan pada halaman laporan untuk menampilkan grafik keuntungan da
 
 # 🧱 Struktur Halaman Aplikasi
 
-```bash
+<details>
+<summary>📁 Lihat struktur folder aplikasi</summary>
 
+<br>
+
+```bash
+lib/
+├── models/
+│   ├── app_user_model.dart
+│   ├── order_item_model.dart
+│   └── product_model.dart
+├── pages/
+│   ├── add_employee_page.dart
+│   ├── camera_capture_page.dart
+│   ├── cashier_page.dart
+│   ├── employee_home_page.dart
+│   ├── login_page.dart
+│   ├── owner_home_page.dart
+│   ├── product_management_page.dart
+│   ├── sales_report_page.dart
+│   ├── stock_management_page.dart
+│   ├── transaction_history_page.dart
+│   └── user_management_page.dart
+├── services/
+│   ├── auth_service.dart
+│   ├── employee_service.dart
+│   ├── order_service.dart
+│   ├── payment_proof_service.dart
+│   ├── product_service.dart
+│   ├── report_service.dart
+│   └── user_service.dart
+├── theme/
+│   ├── app_colors.dart
+│   └── app_theme.dart
+├── utils/
+│   ├── currency_formatter.dart
+│   └── input_validators.dart
+└── main.dart
+```
+
+</details>
+
+<details>
+<summary>🧩 Penjelasan folder <code>models/</code></summary>
+
+<br>
+
+Folder ini berisi model data yang digunakan dalam aplikasi. Model berfungsi untuk merepresentasikan data agar lebih mudah dikelola di dalam program.
+
+- `app_user_model.dart` → model data pengguna aplikasi
+- `order_item_model.dart` → model data item pesanan
+- `product_model.dart` → model data produk
+
+</details>
+
+<details>
+<summary>🖥️ Penjelasan folder <code>pages/</code></summary>
+
+<br>
+
+Folder ini berisi halaman-halaman antarmuka (UI) pada aplikasi.
+
+- `add_employee_page.dart` → halaman untuk menambahkan akun karyawan
+- `camera_capture_page.dart` → halaman untuk mengambil gambar menggunakan kamera
+- `cashier_page.dart` → halaman kasir untuk proses transaksi
+- `employee_home_page.dart` → halaman utama untuk karyawan
+- `login_page.dart` → halaman login aplikasi
+- `owner_home_page.dart` → halaman utama untuk pemilik
+- `product_management_page.dart` → halaman untuk mengelola data produk
+- `sales_report_page.dart` → halaman untuk melihat laporan penjualan
+- `stock_management_page.dart` → halaman untuk mengelola stok barang
+- `transaction_history_page.dart` → halaman untuk melihat riwayat transaksi
+- `user_management_page.dart` → halaman untuk mengelola data pengguna
+
+</details>
+
+<details>
+<summary>⚙️ Penjelasan folder <code>services/</code></summary>
+
+<br>
+
+Folder ini berisi layanan atau logika proses aplikasi, terutama yang berhubungan dengan pengolahan data dan fitur utama sistem.
+
+- `auth_service.dart` → menangani proses autentikasi/login
+- `employee_service.dart` → menangani data dan proses yang berkaitan dengan karyawan
+- `order_service.dart` → menangani proses pemesanan atau transaksi
+- `payment_proof_service.dart` → menangani data bukti pembayaran
+- `product_service.dart` → menangani data produk
+- `report_service.dart` → menangani pembuatan dan pengolahan laporan
+- `user_service.dart` → menangani data pengguna
+
+</details>
+
+<details>
+<summary>🎨 Penjelasan folder <code>theme/</code></summary>
+
+<br>
+
+Folder ini berisi pengaturan tampilan aplikasi, seperti warna dan tema.
+
+- `app_colors.dart` → berisi daftar warna yang digunakan pada aplikasi
+- `app_theme.dart` → berisi konfigurasi tema aplikasi
+
+</details>
+
+<details>
+<summary>🛠️ Penjelasan folder <code>utils/</code></summary>
+
+<br>
+
+Folder ini berisi fungsi bantu yang digunakan untuk mendukung proses dalam aplikasi.
+
+- `currency_formatter.dart` → digunakan untuk memformat nilai mata uang
+- `input_validators.dart` → digunakan untuk memvalidasi input dari pengguna
+
+</details>
+
+<details>
+<summary>🚀 Penjelasan file <code>main.dart</code></summary>
+
+<br>
+
+File utama yang digunakan sebagai titik awal saat aplikasi dijalankan.
+
+</details>
 
 ---
 
 # ⚙️ Teknologi dan Package yang Digunakan
 
+<details>
+<summary>📦 Klik untuk melihat teknologi dan package</summary>
+
+<br>
+
 Aplikasi ini dikembangkan menggunakan beberapa teknologi berikut:
 
-- **Flutter** → framework utama untuk membangun aplikasi mobile  
-- **Dart** → bahasa pemrograman utama  
-- **Supabase** → database dan layanan backend  
-- **Camera** → untuk pengambilan bukti pembayaran  
-- **fl_chart** → untuk visualisasi laporan penjualan  
-- **Shared Preferences** → untuk penyimpanan sesi login  
-- **HTTP / API Service** → untuk komunikasi data  
+- **Flutter** → framework utama untuk membangun aplikasi mobile
+- **Dart** → bahasa pemrograman utama
+- **Supabase** → database dan layanan backend
+- **Camera** → untuk pengambilan bukti pembayaran
+- **fl_chart** → untuk visualisasi laporan penjualan
+- **Shared Preferences** → untuk penyimpanan sesi login
+- **HTTP / API Service** → untuk komunikasi data
 
-Kombinasi teknologi ini membuat aplikasi tidak hanya memiliki tampilan yang baik, tetapi juga mendukung proses pengolahan data usaha secara nyata.
-
----
-
-
+</details>
 
 ---
 
 # 📲 Cara Menggunakan Aplikasi
 
 <details>
-<summary>✨ Klik untuk melihat langkah penggunaan</summary>
+<summary>👨‍💼 Jika Login sebagai Karyawan</summary>
 
 <br>
 
-## Jika Login sebagai Karyawan
-1. Buka aplikasi  
-2. Login menggunakan akun karyawan  
-3. Pilih menu **Kasir**, **Stok**, atau **Riwayat Transaksi**  
-4. Jika membuka Kasir, input nama pelanggan  
-5. Pilih metode pembayaran  
-6. Tambahkan menu ke daftar pesanan  
-7. Atur jumlah item sesuai kebutuhan  
-8. Jika pembayaran tunai, simpan transaksi  
-9. Jika pembayaran QRIS atau transfer, ambil foto bukti pembayaran  
-10. Cek riwayat transaksi yang sudah tersimpan  
+1. Buka aplikasi
+2. Login menggunakan akun karyawan
+3. Pilih menu **Kasir**, **Stok**, atau **Riwayat Transaksi**
+4. Jika membuka Kasir, input nama pelanggan
+5. Pilih metode pembayaran
+6. Tambahkan menu ke daftar pesanan
+7. Atur jumlah item sesuai kebutuhan
+8. Jika pembayaran tunai, simpan transaksi
+9. Jika pembayaran QRIS atau transfer, ambil foto bukti pembayaran
+10. Cek riwayat transaksi yang sudah tersimpan
 
-## Jika Login sebagai Pemilik
-1. Buka aplikasi  
-2. Login menggunakan akun pemilik  
-3. Gunakan menu **Kasir**, **Stok**, **Riwayat Transaksi**, **Karyawan**, **Produk**, atau **Laporan**  
-4. Kelola data sesuai kebutuhan usaha  
-5. Cek laporan untuk memantau omzet, keuntungan, dan aktivitas penjualan  
+</details>
+
+<details>
+<summary>👑 Jika Login sebagai Pemilik</summary>
+
+<br>
+
+1. Buka aplikasi
+2. Login menggunakan akun pemilik
+3. Gunakan menu **Kasir**, **Stok**, **Riwayat Transaksi**, **Karyawan**, **Produk**, atau **Laporan**
+4. Kelola data sesuai kebutuhan usaha
+5. Cek laporan untuk memantau omzet, keuntungan, dan aktivitas penjualan
 
 </details>
 
@@ -1325,20 +1705,23 @@ Kombinasi teknologi ini membuat aplikasi tidak hanya memiliki tampilan yang baik
 
 # ✅ Kelebihan Aplikasi
 
+<details>
+<summary>✨ Klik untuk melihat kelebihan aplikasi</summary>
+
+<br>
+
 Beberapa kelebihan dari aplikasi **Mama Piya Kasir** antara lain:
 
-- memiliki pembagian role yang jelas antara karyawan dan pemilik,
-- mendukung transaksi tunai maupun non-tunai,
-- menyediakan bukti pembayaran melalui kamera,
-- memiliki ringkasan transaksi yang rapi seperti struk digital,
-- mendukung pencarian dan filter riwayat transaksi,
-- mempermudah pengelolaan stok,
-- mendukung manajemen produk dan manajemen karyawan,
-- serta menyediakan laporan usaha yang lengkap dan informatif.
+- memiliki pembagian role yang jelas antara karyawan dan pemilik
+- mendukung transaksi tunai maupun non-tunai
+- menyediakan bukti pembayaran melalui kamera
+- memiliki ringkasan transaksi yang rapi seperti struk digital
+- mendukung pencarian dan filter riwayat transaksi
+- mempermudah pengelolaan stok
+- mendukung manajemen produk dan manajemen karyawan
+- menyediakan laporan usaha yang lengkap dan informatif
 
----
-
-
+</details>
 
 ---
 
@@ -1348,8 +1731,7 @@ Beberapa kelebihan dari aplikasi **Mama Piya Kasir** antara lain:
 
 Terima kasih telah membaca dokumentasi project kami.  
 
-
 **Mama Piya Kasir 💙**  
-**Proyek Akhir PAB Kelompok**
+**Proyek Akhir PAB Kelompok C8**
 
 </div>
